@@ -1,0 +1,42 @@
+Constructors:
+
+setters enable you to process a value before assigning it.
+
+If you want to process the value in the future or even change the processing, use setters/getters.
+Then you just need to change the setter instead of every line of code accessing the field.
+
+
+Personally, I would set the variable directly in most cases.
+
+Methods usually expect that the instance is fully-formed by the time they're called. In particular,
+calling an overridden method from a constructor is a recipe for hard-to-understand code and hard-to-spot bugs.
+
+Having said that, I often try to make classes immutable anyway, in which case not only is there no setter,
+but you have to set the final variable from the constructor (or a variable initializer) anyway :)
+
+Where properties have logic, setter logic is usually validation and sometimes change propagation to observers.
+I'd usually expect the constructor parameters to be checked explicitly at the start of the method,
+and you wouldn't want any change propagation to occur before an instance is fully created anyway.
+
+
+
+I follow two rules about constructors to minimize problems which are why I would not use the mutator method:
+
+Constructors (of non-final classes) should call only final or private methods.
+If you decide to ignore this rule and let the constructor call non-final/non-private methods, then:
+
+- those methods and any methods they may call must be careful not to assume the instance is fully initialized, and
+- the subclasses that override those methods (subclasses that may not even be aware that the superclass constructor
+is calls those methods) must not assume that the subclass constructor and superclasses' constructors have been fully executed.
+This problem gets worse the deeper down the inheritance hierarchy the superclass with the "evil" constructor is.
+
+Is all that extra cognitive baggage worth it? You could allow an exception for simple mutators that only assign a value
+to an instance variable, since there's little benefit, even that doesn't seem worth it.
+
+[[ @Jon Skeet mentions this in his answer: "... In particular, calling an overridden method from a constructor is
+a recipe for hard-to-understand code and hard-to-spot bugs." But I don't think the ramifications of this problem is stressed enough. ]]
+
+Constructors should be cautious about leaking this before the instance is fully initialized. While the previous rule was about methods
+inside the class and subclasses accessing ivars, you must also be careful about (even final/private) methods passing this to other classes
+and utility functions before this is fully initialized. The more non-private, overridable methods that the constructor calls,
+the greater the risk of leaking this.

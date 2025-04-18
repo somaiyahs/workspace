@@ -1,0 +1,7 @@
+,,,,,,
+scope1,A,B,C,D,,
+scope2,A,C,D,,,
+scope3,A,B,B,,,
+scope4,B,D,scope1,,,
+scope5,B,D,A,,,
+scope6,B,D,,,,

@@ -1,0 +1,78 @@
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Task Manager"
+            size_hint_y: 0.1
+            font_size: 32
+        ScrollView:
+            GridLayout:
+                id: task_container
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height
+        Button:
+            text: "Add New Task"
+            size_hint_y: 0.1
+            on_press:
+                root.manager.get_screen('add_edit').is_edit = False
+                root.manager.current = 'add_edit'
+
+<TaskDetailScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Task Details"
+            size_hint_y: 0.1
+            font_size: 24
+        TextInput:
+            id: title
+            hint_text: "Title"
+        TextInput:
+            id: description
+            hint_text: "Description"
+        TextInput:
+            id: due_date
+            hint_text: "Due Date (YYYY-MM-DD)"
+        TextInput:
+            id: status
+            hint_text: "Status (Pending/Done)"
+        BoxLayout:
+            size_hint_y: 0.2
+            Button:
+                text: "Save"
+                on_press: root.save_task()
+            Button:
+                text: "Delete"
+                on_press: root.delete_task()
+            Button:
+                text: "Back"
+                on_press: root.manager.current = 'main'
+
+<AddEditTaskScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Add/Edit Task"
+            size_hint_y: 0.1
+            font_size: 24
+        TextInput:
+            id: title
+            hint_text: "Title"
+        TextInput:
+            id: description
+            hint_text: "Description"
+        TextInput:
+            id: due_date
+            hint_text: "Due Date (YYYY-MM-DD)"
+        TextInput:
+            id: status
+            hint_text: "Status (Pending/Done)"
+        BoxLayout:
+            size_hint_y: 0.2
+            Button:
+                text: "Save"
+                on_press: root.save_task()
+            Button:
+                text: "Cancel"
+                on_press: root.manager.current = 'main'

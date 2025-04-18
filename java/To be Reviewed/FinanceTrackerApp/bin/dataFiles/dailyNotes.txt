@@ -1,0 +1,11 @@
+File Name: Present date (defualt) - custom date ()
+DailyNote(Date name, List<Event> events)
+
+Events: 
+When: Date, Time, Duration, 
+What: Categories
+Who: 
+level of satisfaction: 1-10
+importance level: Urgent/important/routine-maintenance/ho
+Details: 
+Reflection: 

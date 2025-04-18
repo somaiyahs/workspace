@@ -1,0 +1,25 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/javafx-sdk/javafx-swt.jar",
+        "lib/javafx-sdk/javafx.base.jar",
+        "lib/javafx-sdk/javafx.controls.jar",
+        "lib/javafx-sdk/javafx.fxml.jar",
+        "lib/javafx-sdk/javafx.graphics.jar",
+        "lib/javafx-sdk/javafx.media.jar",
+        "lib/javafx-sdk/javafx.swing.jar",
+        "lib/javafx-sdk/javafx.web.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/sqlite-jdbc-3.47.1.0.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.media.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx-swt.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.fxml.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.swing.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.graphics.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.controls.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.web.jar",
+        "/Users/somaiyahsultani/workspace/Personal_Portfolio/FinanceApp/FinanceApp/lib/javafx-sdk/javafx.base.jar"
+    ]
+}

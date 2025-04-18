@@ -1,0 +1,90 @@
+This is to improve a script so it can run multiple commands concurrently, with a focus on the webpage development, and for the purpose of automation. 
+
+DESCRIPTION:
+============================================================
+
+You work for a software consulting service provider and have been assigned to the account of a client who was previously serviced by Bob, a colleague who has recently left your organization. Bob supplied your client with a series of bash scripts that are meant to execute concurrently. However, your client has reached out to you because they have noticed some inconsistencies with the performance of the bash scripts and would like you to troubleshoot the issue and provide a better solution.
+The client's original request was for a one-line command that would execute several processes concurrently. Bob's solution was to create a text file with a list of commands that the client is free to edit. This list of commands is passed through a pipe to the xargs command, which executes each command in the list. See below for Bob's one-liner and an example of commands.txt:
+cat commands.txt | xargs -I CMD bash -c CMD
+
+The client states they have been using this one-liner and command list for some time to automate some routine tasks that are performed overnight. However, they have just recently started dabbling in web development and one of their employees tried to use this to host some basic web pages on different ports. Apparently, when they use this script to start hosting the web pages, only one web page appears to be active. Is this script actually performing concurrency?
+
+Specification (30 points possible)
+Your deliverable for this assignment will be an improved bash one-liner or shell script along with one or more versions of commands.txt that satisfies the following requirements:
+Performs true concurrency with multiple processes or threads
+Allows all three (or more) of the client's web pages to be accessible at once (product of concurrency)
+Allows any 100 arbitrary, unique processes to be executed concurrently (for example, you may use 1 echo command, 1 ls command, etc.) with output appended to a single text file.
+
+Report (50 points possible)
+Write a report describing the following:
+The function of Bob's one-liner as seen above. Walk through the behavior and describe what is happening.
+Any modifications to existing commands or other changes to the one-liner or scripts necessary to facilitate concurrency.
+A thorough explanation of the state of concurrency before and after you made any modifications. You must show evidence of concurrent execution of processes.
+An examination of the behavior of the provided shell scripts that host web pages. How do they work? Did you need to make any changes? Why or why not?
+How the multiple writes to a single file were accomplished without causing a deadlock. Support your conclusions with any evidence your system can provide.
+
+Documentation (10 points possible)
+You will either create one or more original shell scripts for this assignment or modify the scripts provided, containing clear documentation for what each section of code is accomplishing. This documentation should exist as clearly formatted comments in your code. Header documentation before each section is encouraged to enable anyone who is viewing your code for the first time to understand the purpose of the commands used.
+
+Readability (10 points possible)
+Your script should have a consistent format and organization that aids in the understanding of logic structures and the general flow of the program. The program should be divided into sections, with each section having a clear beginning and end. It should not be difficult to follow your logic.
+Extra Credit (20 points possible)
+If you modify start_server_1.sh, start_server_2.sh, and start_server3.sh to each run off of the same port number, you will find that a different page loads in your browser each time you refresh, apparently in a certain order. Your client is interested in knowing if you can provide a bash script by which the order of these pages can be controlled upon script execution (for example, the ability to pre-select the execution of my_website_1, my_website_3, and my_website_2 in a browser). These must remain concurrent processes, and all other previous requirements apply.
+Note: To complete this assignment, you will need the following files:
+commands (txt)Download commands (txt)
+start_server_1 (sh)Download start_server_1 (sh)
+start_server_2 (sh)Download start_server_2 (sh)
+start_server3 (sh)Download start_server3 (sh)
+my_website_1 (sh)Download my_website_1 (sh)
+my_website_2 (sh)Download my_website_2 (sh)
+my_website_3 (sh)Download my_website_3 (sh)
+Please make sure to download the files to work on them and re-upload with your solutions in your submission.
+
+===============================================================
+
+
+commands.txt
+----------------------------------------
+./start_server_1.sh
+./start_server_2.sh
+./start_server_3.sh
+
+start_server_1.sh
+---------------------------------------
+while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; sh my_website_1.sh; } | nc -l 8080; done
+
+start_server_2.sh
+--------------------------------------
+while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; sh my_website_2.sh; } | nc -l 8081; done
+
+start_server_3.sh
+-------------------------------------
+while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; sh my_website_3.sh; } | nc -l 8082; done
+
+my_website_1.sh
+--------------------------------------
+#!/bin/bash
+
+echo "************MY AWESOME SITE***************\n"
+echo "Hello World!!!"
+echo "\n"
+
+
+my_website_2.sh
+--------------------------------------
+#!/bin/bash
+
+echo "************MY WONDERFUL SITE***************\n"
+echo "I am in Cyber Space!!"
+echo "\n"
+
+
+my_website_3.sh
+--------------------------------------
+#!/bin/bash
+
+echo "************MY EXCELENT SITE***************\n"
+echo "I can see my house from here!!!"
+echo "\n"
+
+

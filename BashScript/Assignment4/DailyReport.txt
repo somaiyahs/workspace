@@ -1,0 +1,2161 @@
+Report Generated on: *01 ноября 2023 (среда)*
+
+-----------------------------------Memory Audit Script----------------------------------------
+
+---------------------------General and Virtual Memory Overview -------------------------------
+
+
+Memory Overview:
+------------------------------------Memory Usage----------------------------------------------
+
+  PID USER             %MEM      VSZ    RSS
+    1 root              0.2 409088368  25712
+  297 root              0.3 408401312  48320
+  299 root              0.0 408266560   7776
+  301 root              0.0 408053264   1136
+  302 root              0.0 408381584   7488
+  303 root              0.1 408279136  21552
+  306 root              0.0 408276240   7584
+  308 root              0.1 408269104  10320
+  309 root              0.0 408047152    528
+  310 root              0.0 408266400   7680
+  311 _biome            0.0 408264512   5216
+  313 root              0.0 408265072   4736
+  315 root              0.0 408264096   1600
+  320 root              0.0 408070256   1024
+  324 root              0.3 408576672  48976
+  325 _iconservices     0.0 408264352   2624
+  326 root              0.0 408271600   5792
+  327 root              0.0 408263888   3728
+  330 root              0.2 408287584  26464
+  331 root              0.0 408235792   2112
+  334 root              0.0 408264320   2064
+  335 root              0.1 408295936  13056
+  336 root              0.1 408352640  11088
+  337 root              0.1 408268784  13520
+  338 _timed            0.0 408264448   4288
+  339 _usbmuxd          0.0 408270928   2208
+  340 root              0.0 408268272   6736
+  341 root              0.0 408068560    160
+  343 _locationd        0.1 408308048  19872
+  345 root              0.0 408179744      0
+  346 root              0.2 408291824  29072
+  348 _distnote         0.0 408168944   2528
+  349 root              0.0 408103040   1600
+  350 root              0.2 408282432  28128
+  352 root              0.0 408102464   3616
+  353 root              0.0 408265584   5808
+  354 root              0.0 408077360      0
+  355 root              0.0 408823744   5920
+  358 root              0.0 408234304   2848
+  360 root              0.0 408264544   5792
+  361 root              0.1 408267408  18560
+  363 root              0.0 408200944    944
+  364 root              0.2 408379600  34016
+  365 _windowserver     1.8 411976176 303328
+  368 root              0.1 408274832  12784
+  370 somaiyahsultani   0.4 409953264  72880
+  371 root              0.1 408274320  11488
+  372 root              0.1 408287744  14016
+  373 root              0.0 408178336   3296
+  374 root              0.0 408266512   5392
+  375 root              0.0 408257248   3120
+  385 root              0.1 408277296  14192
+  391 _analyticsd       0.1 408275264  12144
+  393 root              0.2 408283232  25456
+  415 _coreaudiod       0.6 409381392  95280
+  426 _nsurlsessiond    0.1 408306912   9440
+  427 root              0.0 408233696   2864
+  428 root              0.0 408263936   4928
+  431 root              0.1 408280048  18576
+  432 _networkd         0.1 408277184  10752
+  435 root              0.0 408263216   4704
+  436 root              0.0 408168944    704
+  440 _windowserver     0.0 408168944    704
+  442 root              0.0 408264864   7456
+  450 _coreaudiod       0.0 408168944    704
+  451 _mdnsresponder    0.1 408279008  12992
+  457 root              0.0 408264432   2080
+  458 root              0.0 408264528   2736
+  461 _cmiodalassistants  0.0 408168944    704
+  462 _softwareupdate   0.1 412761008  20752
+  464 root              0.0 408266320   5728
+  465 root              0.0 408234000   3744
+  467 _softwareupdate   0.0 408168944    704
+  470 root              0.5 411857440  86144
+  475 _spotlight        0.0 408168944    720
+  487 _cmiodalassistants  0.1 408387712  13440
+  488 root              0.0 408267216   4912
+  489 _cmiodalassistants  0.0 408266384   4448
+  490 root              0.0 408227456   1712
+  494 root              0.0 408824752   2400
+  496 root              0.1 408204528   9824
+  500 root              0.2 408373552  30688
+  501 root              0.4 408336928  73968
+  503 root              0.0 408273584   3600
+  506 _locationd        0.1 408307808  13312
+  507 _locationd        0.0 408168944   1024
+  514 root              0.0 408264176   4880
+  516 _driverkit        0.0 408496816     80
+  517 _driverkit        0.0 408530032   1392
+  518 _appleevents      0.0 408264976   4752
+  524 root              0.1 408272032  14320
+  555 _nsurlsessiond    0.0 408168944    704
+  561 root              0.0 408264608   5776
+  566 root              0.0 408265392   5472
+  567 root              0.0 408265312   7632
+  568 _mysql            0.0 409758848   3424
+  569 somaiyahsultani   0.0 408170992   4912
+  571 root              0.0 408225904    464
+  573 somaiyahsultani   0.1 408268784   8928
+  577 somaiyahsultani   0.1 409659280  16256
+  578 somaiyahsultani   0.3 408291888  42288
+  579 somaiyahsultani   0.1 409793584  22464
+  580 somaiyahsultani   0.1 408295984   8736
+  581 root              0.1 408269920   8896
+  582 somaiyahsultani   0.3 410067392  50144
+  583 somaiyahsultani   0.1 408274448  12032
+  584 somaiyahsultani   0.4 409920608  63136
+  585 somaiyahsultani   0.1 409865168  17440
+  586 somaiyahsultani   0.6 414500016  96768
+  587 somaiyahsultani   0.0 408264384   5888
+  590 somaiyahsultani   0.1 408263328   9808
+  591 somaiyahsultani   0.1 408514192  24496
+  592 somaiyahsultani   0.1 408266384  11360
+  593 root              0.0 408271808   6368
+  594 somaiyahsultani   0.0 408102944   1648
+  595 somaiyahsultani   0.1 408276736  11664
+  596 somaiyahsultani   0.0 408762272   8320
+  597 somaiyahsultani   0.0 408270736   7744
+  599 somaiyahsultani   0.1 408308224  20000
+  600 somaiyahsultani   0.0 408265088   4528
+  601 somaiyahsultani   0.0 408266064   8208
+  602 root              0.1 408287552  14992
+  603 somaiyahsultani   0.1 408266928  11504
+  604 somaiyahsultani   0.1 408301808  23264
+  605 somaiyahsultani   0.1 408274400  18896
+  606 somaiyahsultani   0.0 408263776   6768
+  607 somaiyahsultani   0.1 408276128  15856
+  608 somaiyahsultani   0.1 408288112  15856
+  609 somaiyahsultani   0.2 408321408  26048
+  610 somaiyahsultani   0.3 408441376  42192
+  612 somaiyahsultani   0.0 408242192   6624
+  613 somaiyahsultani   0.0 408233536   6160
+  614 _appleevents      0.0 408168944    704
+  615 root              0.1 408242064   9648
+  616 somaiyahsultani   0.1 408422176  14720
+  617 somaiyahsultani   0.2 408300400  38256
+  618 somaiyahsultani   0.1 408283392  21744
+  619 somaiyahsultani   0.1 408273024  12944
+  620 somaiyahsultani   0.1 408389792   9280
+  621 somaiyahsultani   0.2 408414992  27200
+  622 somaiyahsultani   0.1 408220096  13760
+  623 somaiyahsultani   0.2 408291168  34128
+  624 somaiyahsultani   0.1 408664608  10832
+  625 somaiyahsultani   0.1 408285520  11152
+  626 somaiyahsultani   0.2 408307712  29376
+  627 somaiyahsultani   0.2 408374576  34944
+  629 somaiyahsultani   0.1 408273600  15520
+  630 somaiyahsultani   0.2 408304224  27264
+  631 somaiyahsultani   0.2 408430224  26368
+  632 root              0.0 408095984    112
+  633 somaiyahsultani   0.1 408266608   9072
+  634 somaiyahsultani   0.1 408276784   9856
+  635 somaiyahsultani   0.0 408272256   3056
+  638 somaiyahsultani   0.1 408266928   8528
+  639 somaiyahsultani   0.0 409183456   7024
+  640 somaiyahsultani   0.3 409885376  48128
+  642 somaiyahsultani   0.1 408314752  17680
+  643 somaiyahsultani   0.1 408479792  20992
+  644 somaiyahsultani   0.1 408265216   8736
+  645 somaiyahsultani   0.0 408287488   1280
+  646 somaiyahsultani   0.1 408292240  22416
+  647 somaiyahsultani   0.1 408276144  13088
+  648 somaiyahsultani   0.3 408305712  44688
+  649 somaiyahsultani   0.1 408220992  12848
+  652 somaiyahsultani   0.0 408267424   8064
+  654 somaiyahsultani   0.1 409766928  10544
+  656 somaiyahsultani   0.0 408264064   3008
+  657 somaiyahsultani   0.0 408268512   2784
+  659 somaiyahsultani   0.2 408346224  38928
+  660 somaiyahsultani   0.1 409697456  21776
+  661 somaiyahsultani   0.1 408268416  13824
+  662 somaiyahsultani   0.1 408270240  21232
+  663 somaiyahsultani   0.0 408211520   7456
+  665 somaiyahsultani   0.1 409865520  17072
+  667 somaiyahsultani   0.1 408266224  10560
+  669 root              0.0 408233584   1248
+  670 somaiyahsultani   0.1 408271536  14032
+  671 somaiyahsultani   0.7 408631840 115728
+  672 somaiyahsultani   0.1 408279568   9776
+  673 somaiyahsultani   0.3 408824800  49072
+  675 somaiyahsultani   0.0 408233616   1824
+  677 somaiyahsultani   0.1 408317120  13072
+  678 somaiyahsultani   0.1 408799184  18048
+  679 somaiyahsultani   0.0 408272320   6144
+  680 somaiyahsultani   0.0 408264304   3808
+  681 somaiyahsultani   0.0 408103632   3424
+  682 somaiyahsultani   0.0 408263872   5280
+  684 _oahd             0.0 408508672    576
+  685 somaiyahsultani   0.1 408273104  10176
+  686 somaiyahsultani   0.1 408265424   8816
+  688 _nearbyd          0.0 408271184   7200
+  689 somaiyahsultani   0.1 409837056  13200
+  690 somaiyahsultani   0.1 408274592  14272
+  691 somaiyahsultani   1.1 411663488 181184
+  693 somaiyahsultani   0.1 408292128   9920
+  695 _fpsd             0.0 408104912   3472
+  696 somaiyahsultani   0.0 408242448   7344
+  697 somaiyahsultani   0.8 409552688 140176
+  699 somaiyahsultani   0.1 408279872  17584
+  702 somaiyahsultani   0.1 408421456  21920
+  704 somaiyahsultani   0.1 408313728  12752
+  705 somaiyahsultani   0.1 408274176  13104
+  708 somaiyahsultani   0.1 408319312  14176
+  709 somaiyahsultani   0.1 408313728  24384
+  711 somaiyahsultani   0.1 408273424  12048
+  713 somaiyahsultani   0.2 412747248  25600
+  715 somaiyahsultani   0.1 409766624   8800
+  717 root              0.0 408281760   7568
+  718 somaiyahsultani   0.1 408263728   8896
+  719 somaiyahsultani   0.0 408102384   2480
+  720 somaiyahsultani   0.1 408275376  16128
+  721 somaiyahsultani   0.1 409644112  17824
+  722 somaiyahsultani   0.0 408271712   6960
+  723 somaiyahsultani   0.1 408437024  23424
+  724 root              0.0 408263728   4256
+  725 somaiyahsultani   0.2 408516304  33664
+  726 somaiyahsultani   0.4 408425504  69776
+  727 somaiyahsultani   0.2 408341824  36432
+  728 somaiyahsultani   0.1 408312816  20624
+  730 somaiyahsultani   0.2 408341632  26608
+  734 somaiyahsultani   0.1 408275520  19488
+  735 somaiyahsultani   0.1 409657152  13888
+  736 somaiyahsultani   0.0 408264784   6080
+  737 somaiyahsultani   0.1 408283968   8448
+  739 somaiyahsultani   0.0 408233856   4176
+  740 somaiyahsultani   0.0 408265248   7504
+  741 somaiyahsultani   0.0 408263728   5344
+  743 somaiyahsultani   0.0 408264672   7696
+  744 root              0.1 408281472   9824
+  746 somaiyahsultani   0.1 410106688  19664
+  748 somaiyahsultani   0.1 408301584  16256
+  749 root              0.0 408208464    304
+  750 somaiyahsultani   0.0 408234048   2016
+  753 somaiyahsultani   0.1 408430416  12368
+  754 somaiyahsultani   0.1 408296480  10320
+  759 somaiyahsultani   0.0 409661328   7728
+  762 somaiyahsultani   0.0 408263808   2464
+  763 somaiyahsultani   0.0 408268496   8016
+  765 root              0.0 408264288   7152
+  768 root              0.0 408265456   4736
+  772 somaiyahsultani   0.1 408272784  11424
+  778 root              0.0 408592720   1440
+  779 _gamecontrollerd  0.0 408168944    704
+  781 somaiyahsultani   0.1 408281952  15600
+  782 root              0.0 408102960   2816
+  784 somaiyahsultani   0.2 412715536  27440
+  785 somaiyahsultani   0.0 408263856   3904
+  786 root              0.1 408434368  16000
+  787 somaiyahsultani   0.1 408308608  19488
+  788 somaiyahsultani   0.3 408399504  57920
+  789 somaiyahsultani   0.0 408235072   2880
+  791 root              0.0 408264224   6704
+  792 root              0.0 408266016   5584
+  793 _applepay         0.0 408168944    704
+  796 somaiyahsultani   0.0 408265120   5376
+  802 somaiyahsultani   0.0 408257008   5344
+  805 somaiyahsultani   0.0 408267856   5520
+  810 somaiyahsultani   0.1 408408336  25120
+  811 somaiyahsultani   0.1 408268832   9120
+  812 somaiyahsultani   0.0 408234224   1952
+  814 somaiyahsultani   0.0 408264672   5136
+  815 somaiyahsultani   0.0 408271120   5888
+  817 somaiyahsultani   0.1 408271968  14416
+  818 somaiyahsultani   0.0 408553248   4800
+  821 somaiyahsultani   0.0 408132560   3584
+  823 _accessoryupdater  0.0 408168944    720
+  831 somaiyahsultani   0.0 408233440   3104
+  832 _softwareupdate   0.1 412919456  11264
+  833 somaiyahsultani   0.1 409698720  11424
+  840 somaiyahsultani   0.1 412918560  13648
+  847 root              0.1 409641264  11136
+  852 somaiyahsultani   0.1 408267520  10320
+  854 somaiyahsultani   0.1 408274288   8992
+  855 somaiyahsultani   0.0 408217328   6880
+  858 _fpsd             0.0 408207120   5200
+  859 root              0.0 408084192   1808
+  860 root              0.0 408213008   7056
+  862 _assetcache       0.0 408168944    704
+  866 somaiyahsultani   0.0 409659376   7216
+  871 somaiyahsultani   0.1 408564976   9312
+  872 somaiyahsultani   0.1 408277408  11808
+  873 somaiyahsultani   0.1 408274912  16656
+  874 somaiyahsultani   0.1 408321536  21504
+  876 somaiyahsultani   0.2 408334160  36720
+  877 somaiyahsultani   0.0 408268208   6880
+  886 somaiyahsultani   0.0 408267136   6064
+  905 root              0.0 408047712   1104
+  908 somaiyahsultani   0.1 412833296   9792
+  913 somaiyahsultani   0.1 408229344  13424
+  914 root              0.0 408178176   2064
+  917 somaiyahsultani   0.1 408265344   8832
+  933 _spotlight        0.0 408222496   5840
+  951 somaiyahsultani   0.1 408511216  22896
+  953 somaiyahsultani   0.1 408271104  13040
+  960 somaiyahsultani   0.1 409693808  14272
+  962 somaiyahsultani   0.0 409324672   3056
+  964 somaiyahsultani   0.2 408285760  25360
+  966 somaiyahsultani   0.0 408234080   4880
+  969 _rmd              0.0 408168944    704
+  978 root              0.0 408208832   4256
+  979 somaiyahsultani   0.2 408340016  38112
+  982 somaiyahsultani   0.1 408272352  10464
+  985 somaiyahsultani   0.0 408255936   3568
+ 1008 somaiyahsultani   0.0 408209120   7488
+ 1016 _fpsd             0.1 408307664  24432
+ 1019 somaiyahsultani   0.4 413780096  67312
+ 1047 root              0.0 408075344   1648
+ 1141 root              0.1 408293456  15904
+ 1174 somaiyahsultani   0.0 408209456   4880
+ 1207 somaiyahsultani   0.1 408357616  24768
+ 1424 somaiyahsultani   0.1 408316384  10608
+ 1711 somaiyahsultani   0.1 409345120  18288
+ 1959 somaiyahsultani   0.0 408264704   7392
+ 1988 root              0.0 408269440   4720
+ 1989 _accessoryupdater  0.0 408266768   5824
+ 1990 _accessoryupdater  0.0 408802528   3920
+ 1991 somaiyahsultani   0.1 408344400  21536
+ 2000 root              0.0 408103136   3200
+ 2035 somaiyahsultani   0.0 408283360   4688
+ 2036 somaiyahsultani   0.0 408107984   1904
+ 2041 somaiyahsultani   0.1 412786752  10848
+ 2166 somaiyahsultani   0.0 408207536   1456
+ 2181 _accessoryupdater  0.0 408263488   4016
+ 2190 somaiyahsultani   0.0 408283440   5376
+ 2191 somaiyahsultani   0.1 408321328   8928
+ 2210 root              0.0 408255616    992
+ 2312 somaiyahsultani   0.1 408273088  13344
+ 2446 somaiyahsultani   0.1 408310192  14688
+ 3523 somaiyahsultani   0.1 408281952   8544
+ 3546 somaiyahsultani   0.1 408308832  15872
+ 3835 somaiyahsultani   0.0 408264080   2752
+ 3896 somaiyahsultani   0.0 408086656   1632
+ 3904 somaiyahsultani   0.0 408266720   4656
+ 3905 somaiyahsultani   0.0 408264432   2720
+ 3941 somaiyahsultani   0.0 408210816   3792
+ 3961 _spotlight        0.0 408207840   1440
+ 3964 root              0.0 408264272   3264
+ 3965 root              0.0 408265568   1248
+ 4096 root              0.0 408233696   2240
+ 4097 root              0.0 408102944   1264
+ 4098 root              0.0 408233456    848
+ 4099 somaiyahsultani   0.0 408266736   2992
+ 4100 somaiyahsultani   0.0 408086560   1040
+ 4105 root              0.0 408268544   3392
+ 4117 somaiyahsultani   0.0 408264368   1296
+ 4136 _hidd             0.0 408102400   1488
+ 4142 root              0.0 408102976   1984
+ 4145 somaiyahsultani   0.0 408132496   1504
+ 4156 somaiyahsultani   0.1 408280240  12352
+ 4177 _applepay         0.0 408269968   6640
+ 4178 _assetcache       0.0 408265872   3136
+ 4179 root              0.0 408213120    976
+ 4193 root              0.0 408233728    512
+ 4194 somaiyahsultani   0.1 408300864  12096
+ 4220 somaiyahsultani   0.0 408261312   8240
+ 4223 root              0.0 408047056      0
+ 4281 somaiyahsultani   0.0 408216080   1984
+ 4293 root              0.0 408667552   2480
+ 4302 somaiyahsultani   0.0 408233552   4720
+ 4326 root              0.0 408059024   3376
+ 4339 root              0.1 408284448  19696
+ 4340 root              0.0 408194112   2352
+ 4341 root              0.0 408184544   1664
+ 4403 root              0.0 408052880    928
+ 4441 somaiyahsultani   0.0 408229360   8256
+ 4500 somaiyahsultani   0.0 408094768   2688
+ 4507 somaiyahsultani   0.0 408078544   1072
+ 4823 root              0.0 408248976   2272
+ 4824 somaiyahsultani   0.0 408845040   3520
+ 4946 root              0.0 408267984   4672
+ 4947 root              0.0 408213504   2272
+ 4970 root              0.0 409115952   1040
+ 5023 somaiyahsultani   0.0 408237808    928
+ 5276 somaiyahsultani   0.0 408264480   4992
+ 5307 root              0.0 408234048   1776
+ 5312 somaiyahsultani   0.2 409196112  35392
+ 5313 somaiyahsultani   0.0 408271104   1936
+ 5317 root              0.0 408047264   1248
+ 5319 somaiyahsultani   0.0 408830576   2416
+ 5332 root              0.0 408047952      0
+ 5334 root              0.0 408199552   1616
+ 5375 root              0.0 409219968   5408
+ 5378 somaiyahsultani   0.1 408267472   9104
+ 5379 _accessoryupdater  0.0 408208608   1648
+ 5380 root              0.0 408264704   5152
+ 5381 somaiyahsultani   0.0 408091904   2288
+ 5383 somaiyahsultani   0.0 408230960   3184
+ 5384 _rmd              0.0 408211168   1424
+ 5385 root              0.0 408039456    704
+ 5386 somaiyahsultani   0.0 408229600   3856
+ 5387 somaiyahsultani   0.0 408211184   1392
+ 5417 _rmd              0.0 408637552      0
+ 5420 somaiyahsultani   0.0 408637552      0
+ 5441 somaiyahsultani   0.0 408768624      0
+ 5442 _rmd              0.0 408768624      0
+ 5455 _rmd              0.0 408637552      0
+ 5456 somaiyahsultani   0.0 408637552      0
+ 5474 _rmd              0.0 408637744      0
+ 5475 somaiyahsultani   0.0 408693040   2256
+ 5476 _rmd              0.0 408667312   1136
+ 5477 somaiyahsultani   0.0 408667328   1152
+ 5479 root              0.0 408257040   2880
+ 5494 somaiyahsultani   0.0 408198224   1072
+ 5495 somaiyahsultani   0.1 408133904  10464
+ 5496 somaiyahsultani   0.1 409218960  24016
+ 5497 somaiyahsultani   0.0 408245520   8016
+ 5499 root              0.0 408217664   1824
+ 5500 _accessoryupdater  0.0 408263632   2720
+ 5501 _accessoryupdater  0.0 408212544   2224
+ 5516 somaiyahsultani   0.1 408243808   8976
+ 5517 root              0.0 408048352   1776
+ 5518 _gamecontrollerd  0.0 408265024   5776
+ 5519 _gamecontrollerd  0.0 408799216   3088
+ 5520 somaiyahsultani   0.0 408234064   1344
+ 5527 _softwareupdate   0.0 408211232   2624
+ 5528 root              0.0 408079024   1024
+ 5529 root              0.0 408077408   1536
+ 5534 somaiyahsultani   0.0 408047088   1616
+ 5537 root              0.0 408211728    768
+ 5539 _softwareupdate   0.0 408225856   1248
+ 5545 root              0.0 408178160   1104
+ 5546 root              0.0 408039456    640
+ 5566 root              0.0 408047648      0
+ 5599 _datadetectors    0.0 408178160   1760
+ 5965 root              0.1 408267808  22784
+ 6217 _applepay         0.0 408246048   7104
+ 6525 root              0.0 408215472   3296
+ 6599 somaiyahsultani   0.0 408398976   3264
+ 6688 _captiveagent     0.0 408264640   3520
+ 7031 _softwareupdate   0.0 408505552      0
+ 7035 _assetcache       0.0 408260880   5616
+ 7036 _nsurlsessiond    0.0 408826960   4864
+ 7040 _softwareupdate   0.0 408215936   4000
+ 7041 root              0.0 408801168   3632
+ 7168 root              0.0 408206960   2624
+ 7263 somaiyahsultani   0.0 408066624   2704
+ 7679 somaiyahsultani   0.1 412729984   8784
+ 7714 somaiyahsultani   0.0 408282768   7712
+ 7715 somaiyahsultani   0.0 408966464    992
+ 7717 somaiyahsultani   0.1 408325808   9440
+ 7718 somaiyahsultani   0.0 408827200    992
+ 7742 root              0.0 408211616   4736
+ 7786 somaiyahsultani   0.0 408233552   7856
+ 7793 somaiyahsultani   0.0 408178784   2048
+ 8019 root              0.0 408086560   1072
+ 8068 somaiyahsultani   0.0 408409872   2544
+ 8388 somaiyahsultani   0.1 408277712  16464
+ 8440 somaiyahsultani   0.0 409249360   2048
+ 8469 somaiyahsultani   0.0 408506832    336
+ 8592 root              0.0 408207440    848
+ 8752 _accessoryupdater  0.0 408077520    976
+ 8867 somaiyahsultani   0.0 408254832   7408
+ 9090 somaiyahsultani   0.0 408233584   3312
+ 9093 somaiyahsultani   1.7 415830496 290176
+ 9095 somaiyahsultani   0.8 413882992 136304
+ 9096 somaiyahsultani   0.0 408234048      0
+ 9097 somaiyahsultani   0.0 408897168   5968
+ 9098 somaiyahsultani   0.1 408945808  23648
+ 9101 somaiyahsultani   0.4 409013184  61792
+ 9103 somaiyahsultani   0.1 408884288  24192
+ 9112 somaiyahsultani   0.0 408274016   4144
+ 9123 somaiyahsultani   0.0 408246000    896
+ 9132 somaiyahsultani   0.0 408265008   6544
+ 9141 somaiyahsultani   0.1 408322912  18752
+ 9236 somaiyahsultani   0.0 408264432   3632
+ 9269 somaiyahsultani   1.0 414594000 173120
+ 9271 somaiyahsultani   0.0 408188992      0
+ 9275 somaiyahsultani   0.0 409093904   6208
+ 9592 root              0.0 408239488   2080
+11446 somaiyahsultani   0.1 409690416   8544
+12033 _nsurlsessiond    0.0 408234128   1440
+12452 root              0.0 408066080      0
+12477 root              0.0 408234112   4336
+12478 somaiyahsultani   0.0 408235136   4768
+12557 somaiyahsultani   0.0 408208448      0
+13179 somaiyahsultani   1.6 415141968 267424
+13181 somaiyahsultani   0.2 497852944  31792
+13182 somaiyahsultani   0.0 408217664      0
+13184 somaiyahsultani   0.0 412690704   8112
+13188 somaiyahsultani   0.5 514853328  82048
+13211 somaiyahsultani   0.0 408844608   1024
+13212 somaiyahsultani   0.0 408938000      0
+13215 somaiyahsultani   0.0 409247040   1008
+13216 somaiyahsultani   0.0 409115968   1056
+13217 somaiyahsultani   0.0 408224832      0
+13218 somaiyahsultani   0.0 408206400      0
+13738 somaiyahsultani   0.4 408984496  65616
+13739 somaiyahsultani   0.0 408742272   8288
+14015 somaiyahsultani   0.0 408227568    880
+14421 root              0.0 408247024    464
+14458 somaiyahsultani   0.0 408975680   1040
+14463 somaiyahsultani   0.0 408075392   1440
+15416 somaiyahsultani   0.9 413844080 148016
+15431 somaiyahsultani   0.0 408680064      0
+15432 somaiyahsultani   0.0 409082176      0
+15433 somaiyahsultani   0.0 408679024      0
+15440 somaiyahsultani   0.0 408338496      0
+15453 somaiyahsultani   0.1 408941968  17008
+15454 somaiyahsultani   0.0 408741712   7600
+15465 somaiyahsultani   0.0 409247040   1024
+15470 somaiyahsultani   0.0 408851968   1088
+15546 somaiyahsultani   0.0 408264912   7472
+15677 root              0.0 408268400    944
+16467 somaiyahsultani   0.3 408396752  43664
+16891 somaiyahsultani   0.0 408237808    912
+16931 somaiyahsultani   0.0 409097536   1040
+17123 somaiyahsultani   0.5 410078448  88672
+17124 somaiyahsultani   0.1 408915792  16544
+17125 somaiyahsultani   0.0 408741696   7616
+17176 somaiyahsultani   0.0 408636656      0
+17183 somaiyahsultani   0.0 408496576      0
+17193 somaiyahsultani   0.0 408636656      0
+17199 somaiyahsultani   0.0 408505792      0
+17201 somaiyahsultani   0.0 408646896      0
+17207 somaiyahsultani   0.0 408505792      0
+17209 somaiyahsultani   0.0 408655088      0
+17211 somaiyahsultani   0.0 408507840      0
+17219 somaiyahsultani   0.0 408644848      0
+17225 somaiyahsultani   0.0 408508864      0
+17227 somaiyahsultani   0.0 408636656      0
+17233 somaiyahsultani   0.0 408507840      0
+17235 somaiyahsultani   0.0 408645872      0
+17237 somaiyahsultani   0.0 408506816      0
+17247 somaiyahsultani   0.0 408645872      0
+17253 somaiyahsultani   0.0 408498624      0
+17255 somaiyahsultani   0.0 408637680      0
+17261 somaiyahsultani   0.0 408517056      0
+17263 somaiyahsultani   0.0 408636656      0
+17265 somaiyahsultani   0.0 408506816      0
+17273 somaiyahsultani   0.0 408627440      0
+17278 somaiyahsultani   0.0 408506816      0
+17365 somaiyahsultani   0.0 408636656      0
+17370 somaiyahsultani   0.0 408506816      0
+17378 somaiyahsultani   0.0 408645872      0
+17384 somaiyahsultani   0.0 408516032      0
+17386 somaiyahsultani   0.0 408644848      0
+17392 somaiyahsultani   0.0 408515008      0
+17394 somaiyahsultani   0.0 408646896      0
+17396 somaiyahsultani   0.0 408515008      0
+17481 somaiyahsultani   0.0 408637680      0
+17487 somaiyahsultani   0.0 408507840      0
+17489 somaiyahsultani   0.0 408637680      0
+17495 somaiyahsultani   0.0 408523200      0
+17497 somaiyahsultani   0.0 408637680      0
+17499 somaiyahsultani   0.0 408506816      0
+17515 somaiyahsultani   0.0 408656112      0
+17516 somaiyahsultani   0.0 408645872      0
+17517 somaiyahsultani   0.0 408637680      0
+17520 somaiyahsultani   0.0 408506816      0
+17521 somaiyahsultani   0.0 408505792      0
+17525 somaiyahsultani   0.0 408505792      0
+17537 somaiyahsultani   0.0 408628464      0
+17538 somaiyahsultani   0.0 408636656      0
+17544 somaiyahsultani   0.0 408507840      0
+17547 somaiyahsultani   0.0 408525248      0
+17549 somaiyahsultani   0.0 408639728      0
+17551 somaiyahsultani   0.0 408505792      0
+17559 somaiyahsultani   0.0 408636656      0
+17565 somaiyahsultani   0.0 408507840      0
+17567 somaiyahsultani   0.0 408646896      0
+17573 somaiyahsultani   0.0 408506816      0
+17575 somaiyahsultani   0.0 408646896      0
+17577 somaiyahsultani   0.0 408513984      0
+17584 somaiyahsultani   0.0 408645872      0
+17588 somaiyahsultani   0.0 408636656      0
+17592 somaiyahsultani   0.0 408636656      0
+17606 somaiyahsultani   0.0 408506816      0
+17607 somaiyahsultani   0.0 408507840      0
+17608 somaiyahsultani   0.0 408498624      0
+17617 somaiyahsultani   0.0 408628464      0
+17623 somaiyahsultani   0.0 408506816      0
+17631 somaiyahsultani   0.0 408645872      0
+17637 somaiyahsultani   0.0 408505792      0
+17639 somaiyahsultani   0.0 408637680      0
+17645 somaiyahsultani   0.0 408505792      0
+17647 somaiyahsultani   0.0 408637680      0
+17649 somaiyahsultani   0.0 408496576      0
+17658 somaiyahsultani   0.0 408636656      0
+17664 somaiyahsultani   0.0 408506816      0
+17666 somaiyahsultani   0.0 408636656      0
+17672 somaiyahsultani   0.0 408497600      0
+17674 somaiyahsultani   0.0 408628464      0
+17676 somaiyahsultani   0.0 408506816      0
+17683 somaiyahsultani   0.0 408627440      0
+17687 somaiyahsultani   0.0 408627440      0
+17691 somaiyahsultani   0.0 408636656      0
+17704 somaiyahsultani   0.0 408506816      0
+17705 somaiyahsultani   0.0 408505792      0
+17708 somaiyahsultani   0.0 408515008      0
+17715 somaiyahsultani   0.0 408636656      0
+17719 somaiyahsultani   0.0 408637680      0
+17728 somaiyahsultani   0.0 408505792      0
+17729 somaiyahsultani   0.0 408516032      0
+17928 somaiyahsultani   0.0 408209136    976
+18622 somaiyahsultani   0.6 410442768 108368
+18623 somaiyahsultani   0.2 408974112  32272
+18624 somaiyahsultani   0.0 408742720   8144
+18625 somaiyahsultani   0.0 408255216    896
+18633 somaiyahsultani   0.0 408247680   3360
+18698 root              0.0 408218016   5984
+18885 somaiyahsultani   0.0 408856448   2208
+18886 somaiyahsultani   0.0 408270832   1056
+18887 somaiyahsultani   0.0 408198208      0
+18921 somaiyahsultani   0.0 408265024   3504
+19185 root              0.2 408318752  36784
+19195 _driverkit        0.0 408497920    816
+19557 _trustd           0.1 408356928  14288
+19570 somaiyahsultani   0.1 408354800  16304
+19571 _spotlight        0.1 408242656   8992
+19575 somaiyahsultani   0.0 408536624   4992
+19577 root              0.0 408506032   2448
+19765 somaiyahsultani   1.5 515235440 250320
+19767 somaiyahsultani   0.0 408975792   4352
+19805 somaiyahsultani   0.8 1585840896 126032
+19807 somaiyahsultani   0.0 441604928   4544
+19808 somaiyahsultani   0.3 441999776  45696
+19809 somaiyahsultani   0.2 441883104  30240
+19810 somaiyahsultani   0.0 409112896   6880
+19811 somaiyahsultani   1.1 1595732592 180352
+19819 somaiyahsultani   0.4 1585116976  69328
+19844 somaiyahsultani   0.4 408993584  61888
+19845 somaiyahsultani   0.1 408743232  18848
+19869 somaiyahsultani   0.0 408695744   6480
+19870 somaiyahsultani   0.0 409247536   4528
+19916 somaiyahsultani   0.1 408283536  23456
+19959 somaiyahsultani   0.3 1585153472  42816
+19960 somaiyahsultani   0.5 1585151312  91088
+19984 somaiyahsultani   0.1 409092032  12928
+19993 somaiyahsultani   0.0 409176688   7104
+20026 somaiyahsultani   0.4 514633520  66416
+20028 somaiyahsultani   0.4 497725392  66304
+20029 somaiyahsultani   0.1 409107776   8624
+20410 somaiyahsultani   0.0 409098560   4464
+20461 somaiyahsultani   0.6 500028240 104848
+20462 somaiyahsultani   0.0 409379136   4640
+20463 somaiyahsultani   0.0 408975680   4608
+20498 somaiyahsultani   0.4 409854032  62480
+20499 somaiyahsultani   0.0 408817984   4320
+20757 somaiyahsultani   1.1 409098240 191520
+20868 somaiyahsultani   0.0 408228080   4800
+20989 somaiyahsultani   1.1 498477392 180272
+20992 somaiyahsultani   0.0 408836416   4784
+21908 somaiyahsultani   0.1 408287888  24336
+21934 somaiyahsultani   0.0 408696128   5488
+21947 somaiyahsultani   1.5 414612496 248480
+21950 somaiyahsultani   0.0 408197184   4000
+21951 somaiyahsultani   0.1 408987328  10272
+22206 somaiyahsultani   0.0 408210000   7552
+22207 somaiyahsultani   0.0 408215616   3488
+22265 somaiyahsultani   0.0 408209584   7392
+22305 somaiyahsultani   0.0 408198208   3488
+22366 somaiyahsultani   0.1 408299520  21024
+22394 somaiyahsultani   0.2 408452112  40336
+22396 somaiyahsultani   0.1 408074896   9552
+22398 somaiyahsultani   0.0 408959296   4496
+22399 somaiyahsultani   0.4 408978944  65152
+22400 somaiyahsultani   0.1 408741696  19088
+22401 somaiyahsultani   0.0 408817984   5312
+22429 somaiyahsultani   0.1 409369920  18496
+22430 somaiyahsultani   0.0 408958272   4848
+22502 _locationd        0.0 408211104   6944
+22749 somaiyahsultani   3.4 515722384 567504
+24932 _netbios          0.0 408179136   5216
+25077 somaiyahsultani   2.7 515619680 461040
+25086 somaiyahsultani   1.1 410404512 185120
+25104 somaiyahsultani   0.8 514861632 139440
+25105 somaiyahsultani   0.3 514400848  49824
+25106 somaiyahsultani   0.2 513836528  35072
+25107 somaiyahsultani   0.1 409115968  15232
+25147 somaiyahsultani   1.2 409980128 193808
+25167 somaiyahsultani   0.1 408827200  11904
+25180 somaiyahsultani   0.1 408264544  10448
+25186 somaiyahsultani   0.1 408228384  20304
+25188 somaiyahsultani   0.1 408241840  21648
+25190 somaiyahsultani   0.1 408241376  18560
+25148 root              0.0 408656720   7632
+25149 somaiyahsultani   0.0 408690176   3808
+25192 somaiyahsultani   0.0 408636656   1872
+25193 root              0.0 408626864   2032
+
+------------------------------Top Memory Usage By Process-------------------------------------
+
+
+
+--------------------------------- Top Memory Usage By VM --------------------------------------
+
+
+-------------------------------------Top Memory by User----------------------------------------
+
+
+
+Report Generated on: *01 ноября 2023 (среда)*
+
+-----------------------------------Memory Audit Script----------------------------------------
+
+---------------------------General and Virtual Memory Overview -------------------------------
+
+
+Memory Overview:
+------------------------------------Memory Usage----------------------------------------------
+
+  PID USER             %MEM      VSZ    RSS
+    1 root              0.1 409088368  24816
+  297 root              0.3 408405200  44496
+  299 root              0.0 408266560   7888
+  301 root              0.0 408053824   1152
+  302 root              0.1 408382144  10256
+  303 root              0.1 408278016  21632
+  306 root              0.0 408276800   7824
+  308 root              0.1 408268544  10480
+  309 root              0.0 408047152    496
+  310 root              0.0 408266400   7616
+  311 _biome            0.0 408264512   5248
+  313 root              0.0 408265072   3488
+  315 root              0.0 408264096   1264
+  320 root              0.0 408070256   1072
+  324 root              0.3 408577232  42816
+  325 _iconservices     0.0 408264352   2544
+  326 root              0.0 408271600   5360
+  327 root              0.0 408263888   3424
+  330 root              0.1 408285472  21744
+  331 root              0.0 408235792   2096
+  334 root              0.0 408264320   2048
+  335 root              0.1 408295936  13168
+  336 root              0.1 408352640  10656
+  337 root              0.1 408268784  13328
+  338 _timed            0.0 408264448   4272
+  339 _usbmuxd          0.0 408270928   2096
+  340 root              0.0 408268272   6576
+  341 root              0.0 408068560    160
+  343 _locationd        0.1 408306928  19568
+  345 root              0.0 408179744      0
+  346 root              0.2 408292944  28032
+  348 _distnote         0.0 408168944   2528
+  349 root              0.0 408103040   1600
+  350 root              0.2 408281312  27872
+  352 root              0.0 408102464   2912
+  353 root              0.0 408265584   4320
+  354 root              0.0 408077360      0
+  355 root              0.0 408823744   5488
+  358 root              0.0 408233744   2896
+  360 root              0.0 408265104   5840
+  361 root              0.1 408266288  19056
+  363 root              0.0 408200944    944
+  364 root              0.2 408301248  30384
+  365 _windowserver     1.5 412074768 246496
+  368 root              0.1 408273712  12336
+  370 somaiyahsultani   0.3 409952144  49680
+  371 root              0.1 408273760  11056
+  372 root              0.1 408287184  14288
+  373 root              0.0 408178336   3328
+  374 root              0.0 408266512   5008
+  375 root              0.0 408257280   3344
+  385 root              0.1 408277296  13856
+  391 _analyticsd       0.1 408275264  11696
+  393 root              0.2 408284352  25296
+  415 _coreaudiod       0.5 409366512  87920
+  426 _nsurlsessiond    0.1 408308032   9456
+  427 root              0.0 408233696   2768
+  428 root              0.0 408263936   4800
+  431 root              0.1 408280048  22048
+  432 _networkd         0.1 408276624  10864
+  435 root              0.0 408263216   4816
+  436 root              0.0 408168944    704
+  440 _windowserver     0.0 408168944    704
+  442 root              0.0 408264864   7120
+  450 _coreaudiod       0.0 408168944    704
+  451 _mdnsresponder    0.1 408278448  12864
+  457 root              0.0 408264432   1728
+  458 root              0.0 408264528   2416
+  461 _cmiodalassistants  0.0 408168944    704
+  462 _softwareupdate   0.1 412761008  16544
+  464 root              0.0 408266320   3536
+  465 root              0.0 408234000   3088
+  467 _softwareupdate   0.0 408168944    704
+  470 root              0.4 411922016  69392
+  475 _spotlight        0.0 408168944    720
+  487 _cmiodalassistants  0.1 408282368  10672
+  488 root              0.0 408267216   4896
+  489 _cmiodalassistants  0.0 408266384   4352
+  490 root              0.0 408227456   2400
+  494 root              0.0 408824752   2336
+  496 root              0.1 408204528   9792
+  500 root              0.2 408372992  33136
+  501 root              0.5 408338976  75744
+  503 root              0.0 408273584   3408
+  506 _locationd        0.1 408308368  13408
+  507 _locationd        0.0 408168944   1008
+  514 root              0.0 408264176   4800
+  516 _driverkit        0.0 408496816     80
+  517 _driverkit        0.0 408529792   1600
+  518 _appleevents      0.0 408264976   4672
+  524 root              0.1 408272032  12192
+  555 _nsurlsessiond    0.0 408168944    704
+  561 root              0.0 408264576   5808
+  566 root              0.0 408265392   5648
+  567 root              0.0 408265312   7680
+  568 _mysql            0.0 409758848   3424
+  569 somaiyahsultani   0.0 408171552   4944
+  571 root              0.0 408225904    464
+  573 somaiyahsultani   0.1 408269344   8544
+  577 somaiyahsultani   0.1 409658160  16096
+  578 somaiyahsultani   0.2 408291888  35760
+  579 somaiyahsultani   0.1 409793104  21536
+  580 somaiyahsultani   0.1 408295984   8480
+  581 root              0.1 408269920   8752
+  582 somaiyahsultani   0.3 410070624  42112
+  583 somaiyahsultani   0.1 408276128  10480
+  584 somaiyahsultani   0.4 409920160  63968
+  585 somaiyahsultani   0.1 409864608  17504
+  586 somaiyahsultani   0.4 414500576  68848
+  587 somaiyahsultani   0.0 408264384   5840
+  590 somaiyahsultani   0.1 408263328   9872
+  591 somaiyahsultani   0.1 408514192  20288
+  592 somaiyahsultani   0.1 408266384  11632
+  593 root              0.0 408271808   6208
+  594 somaiyahsultani   0.0 408102944   1536
+  595 somaiyahsultani   0.1 408277296  11648
+  596 somaiyahsultani   0.0 408762272   8160
+  597 somaiyahsultani   0.0 408270736   7696
+  599 somaiyahsultani   0.1 408306544  14224
+  600 somaiyahsultani   0.0 408265088   4528
+  601 somaiyahsultani   0.0 408266064   7568
+  602 root              0.1 408285872  15920
+  603 somaiyahsultani   0.1 408266928  10192
+  604 somaiyahsultani   0.1 408302368  22928
+  605 somaiyahsultani   0.1 408273840  19744
+  606 somaiyahsultani   0.0 408263776   6224
+  607 somaiyahsultani   0.1 408276128  15168
+  608 somaiyahsultani   0.1 408288112  14016
+  609 somaiyahsultani   0.2 408323088  28912
+  610 somaiyahsultani   0.2 408442224  30512
+  612 somaiyahsultani   0.0 408242192   6528
+  613 somaiyahsultani   0.0 408233536   6288
+  614 _appleevents      0.0 408168944    704
+  615 root              0.1 408242064   9408
+  616 somaiyahsultani   0.1 408422176  14160
+  617 somaiyahsultani   0.2 408300400  37760
+  618 somaiyahsultani   0.1 408283392  17696
+  619 somaiyahsultani   0.1 408273024  12656
+  620 somaiyahsultani   0.1 408389792   9120
+  621 somaiyahsultani   0.2 408414992  25312
+  622 somaiyahsultani   0.1 408220096  12128
+  623 somaiyahsultani   0.2 408290048  34336
+  624 somaiyahsultani   0.1 408664608  10752
+  625 somaiyahsultani   0.1 408284400  10624
+  626 somaiyahsultani   0.2 408307712  30224
+  627 somaiyahsultani   0.2 408374576  34336
+  629 somaiyahsultani   0.1 408273600  15552
+  630 somaiyahsultani   0.2 408304352  28416
+  631 somaiyahsultani   0.1 408430224  17712
+  632 root              0.0 408095984    112
+  633 somaiyahsultani   0.0 408266608   7792
+  634 somaiyahsultani   0.1 408276784   8720
+  635 somaiyahsultani   0.0 408272256   2992
+  638 somaiyahsultani   0.0 408266928   7616
+  639 somaiyahsultani   0.0 409183456   6800
+  640 somaiyahsultani   0.3 409885328  46592
+  642 somaiyahsultani   0.1 408315312  17680
+  643 somaiyahsultani   0.1 408479792  21584
+  644 somaiyahsultani   0.1 408265776   8496
+  645 somaiyahsultani   0.0 408287488   1232
+  646 somaiyahsultani   0.2 408292800  33504
+  647 somaiyahsultani   0.1 408276144  13024
+  648 somaiyahsultani   0.3 408300560  44832
+  649 somaiyahsultani   0.1 408220992  12848
+  652 somaiyahsultani   0.0 408267424   6256
+  654 somaiyahsultani   0.1 409766928  10272
+  656 somaiyahsultani   0.0 408264064   2384
+  657 somaiyahsultani   0.0 408268512   2928
+  659 somaiyahsultani   0.2 408347408  37392
+  660 somaiyahsultani   0.1 409697456  21264
+  661 somaiyahsultani   0.1 408268416  13216
+  662 somaiyahsultani   0.1 408269120  21296
+  663 somaiyahsultani   0.0 408211520   7520
+  665 somaiyahsultani   0.1 409865520  17072
+  667 somaiyahsultani   0.1 408266224  10080
+  669 root              0.0 408233584   1968
+  670 somaiyahsultani   0.1 408270416  14288
+  671 somaiyahsultani   0.8 408640304 135104
+  672 somaiyahsultani   0.1 408279568   9856
+  673 somaiyahsultani   0.3 408824800  44624
+  675 somaiyahsultani   0.0 408234736   2880
+  677 somaiyahsultani   0.1 408317120  13200
+  678 somaiyahsultani   0.1 408799184  17088
+  679 somaiyahsultani   0.0 408272320   5904
+  680 somaiyahsultani   0.0 408264304   4304
+  681 somaiyahsultani   0.0 408103072   3344
+  682 somaiyahsultani   0.0 408263872   5584
+  684 _oahd             0.0 408508672    512
+  685 somaiyahsultani   0.1 408273104  10080
+  686 somaiyahsultani   0.1 408265424   8544
+  688 _nearbyd          0.0 408271184   7184
+  689 somaiyahsultani   0.1 409837056  12064
+  690 somaiyahsultani   0.1 408275152  12976
+  691 somaiyahsultani   1.0 411663488 163104
+  693 somaiyahsultani   0.1 408292128   9424
+  695 _fpsd             0.0 408104912   3488
+  696 somaiyahsultani   0.0 408242448   7552
+  697 somaiyahsultani   0.7 409553280 118480
+  699 somaiyahsultani   0.1 408279872  17632
+  702 somaiyahsultani   0.1 408422016  21296
+  704 somaiyahsultani   0.1 408314288  13088
+  705 somaiyahsultani   0.1 408274176  12784
+  708 somaiyahsultani   0.1 408319312  15120
+  709 somaiyahsultani   0.1 408313728  20704
+  711 somaiyahsultani   0.1 408273424  12128
+  713 somaiyahsultani   0.2 412747808  25632
+  715 somaiyahsultani   0.1 409766624   8816
+  717 root              0.0 408281760   7536
+  718 somaiyahsultani   0.1 408263728   8608
+  719 somaiyahsultani   0.0 408102384   2448
+  720 somaiyahsultani   0.1 408275376  14192
+  721 somaiyahsultani   0.1 409642992  16272
+  722 somaiyahsultani   0.1 408271712   9056
+  723 somaiyahsultani   0.2 408437024  32608
+  724 root              0.0 408263728   4272
+  725 somaiyahsultani   0.2 408516304  35200
+  726 somaiyahsultani   0.4 408349392  68880
+  727 somaiyahsultani   0.2 408418320  35664
+  728 somaiyahsultani   0.1 408312816  21456
+  730 somaiyahsultani   0.2 408341632  25392
+  734 somaiyahsultani   0.1 408276640  24592
+  735 somaiyahsultani   0.1 409657152  12832
+  736 somaiyahsultani   0.0 408264784   6032
+  737 somaiyahsultani   0.0 408283968   8272
+  739 somaiyahsultani   0.0 408233856   2960
+  740 somaiyahsultani   0.0 408265248   7504
+  741 somaiyahsultani   0.0 408263728   5280
+  743 somaiyahsultani   0.0 408264672   7088
+  744 root              0.1 408280912   9616
+  746 somaiyahsultani   1.7 410107248 283344
+  748 somaiyahsultani   0.1 408301584  16208
+  749 root              0.0 408208464    304
+  750 somaiyahsultani   0.0 408234048   2224
+  753 somaiyahsultani   0.1 408430416  12256
+  754 somaiyahsultani   0.1 408296480  11456
+  759 somaiyahsultani   0.0 409661328   7648
+  762 somaiyahsultani   0.0 408263808   2432
+  763 somaiyahsultani   0.0 408268496   8384
+  765 root              0.0 408264288   6816
+  768 root              0.0 408265456   4528
+  772 somaiyahsultani   0.1 408272784  10784
+  778 root              0.0 408592720   1184
+  779 _gamecontrollerd  0.0 408168944    704
+  781 somaiyahsultani   0.1 408281952  15024
+  782 root              0.0 408102960   2496
+  784 somaiyahsultani   0.2 412723392  27584
+  785 somaiyahsultani   0.0 408263856   4048
+  786 root              0.1 408434368   9856
+  787 somaiyahsultani   0.1 408308608  19232
+  788 somaiyahsultani   0.3 408399504  42320
+  789 somaiyahsultani   0.0 408235072   2800
+  791 root              0.0 408264224   6336
+  792 root              0.0 408266016   5056
+  793 _applepay         0.0 408168944    704
+  796 somaiyahsultani   0.0 408265120   4304
+  802 somaiyahsultani   0.0 408257008   5424
+  805 somaiyahsultani   0.0 408267856   5248
+  810 somaiyahsultani   0.1 408408336  12736
+  811 somaiyahsultani   0.1 408268832   8816
+  812 somaiyahsultani   0.0 408234224   1936
+  814 somaiyahsultani   0.0 408264672   5072
+  815 somaiyahsultani   0.0 408271120   5856
+  817 somaiyahsultani   0.1 408271968  14992
+  818 somaiyahsultani   0.0 408553248   4592
+  821 somaiyahsultani   0.0 408132560   3584
+  823 _accessoryupdater  0.0 408168944    720
+  831 somaiyahsultani   0.0 408233440   2976
+  832 _softwareupdate   0.1 412919456   8496
+  833 somaiyahsultani   0.1 409698720  11248
+  840 somaiyahsultani   0.1 412918560  12192
+  847 root              0.0 409641264   1264
+  852 somaiyahsultani   0.1 408267520  10704
+  854 somaiyahsultani   0.1 408274288   8896
+  855 somaiyahsultani   0.0 408217328   6864
+  858 _fpsd             0.0 408207120   5200
+  859 root              0.0 408084192   1824
+  860 root              0.0 408211888   7008
+  862 _assetcache       0.0 408168944    704
+  866 somaiyahsultani   0.0 409659376   7232
+  871 somaiyahsultani   0.1 408564976   9312
+  872 somaiyahsultani   0.1 408277408  13632
+  873 somaiyahsultani   0.1 408274912  16624
+  874 somaiyahsultani   0.1 408322096  21168
+  876 somaiyahsultani   0.2 408334160  34656
+  877 somaiyahsultani   0.0 408268208   6784
+  886 somaiyahsultani   0.0 408267136   6064
+  905 root              0.0 408047712   1200
+  908 somaiyahsultani   0.1 412833296   9328
+  913 somaiyahsultani   0.1 408229344  13424
+  914 root              0.0 408178176   2048
+  917 somaiyahsultani   0.1 408265344   9520
+  933 _spotlight        0.0 408222496   5792
+  951 somaiyahsultani   0.1 408510096  21056
+  953 somaiyahsultani   0.1 408271104  13104
+  960 somaiyahsultani   0.1 409693808  13712
+  962 somaiyahsultani   0.0 409324672   3072
+  964 somaiyahsultani   0.2 408285760  26848
+  966 somaiyahsultani   0.0 408234080   4928
+  969 _rmd              0.0 408168944    704
+  978 root              0.0 408208832   4224
+  979 somaiyahsultani   0.2 408416688  39776
+  982 somaiyahsultani   0.1 408272352  10832
+  985 somaiyahsultani   0.0 408255936   3616
+ 1008 somaiyahsultani   0.0 408209120   7520
+ 1016 _fpsd             0.1 408307664  24400
+ 1019 somaiyahsultani   0.1 413780096  18336
+ 1047 root              0.0 408075344   1600
+ 1141 root              0.1 408294144  16352
+ 1174 somaiyahsultani   0.0 408209456   4880
+ 1207 somaiyahsultani   0.2 408357056  26672
+ 1424 somaiyahsultani   0.1 408316384  10336
+ 1711 somaiyahsultani   0.1 409345120  15088
+ 1959 somaiyahsultani   0.0 408264704   7568
+ 1988 root              0.0 408269440   4640
+ 1989 _accessoryupdater  0.0 408266768   4496
+ 1990 _accessoryupdater  0.0 408802528   4096
+ 1991 somaiyahsultani   0.1 408343280  20544
+ 2000 root              0.0 408103136   2976
+ 2035 somaiyahsultani   0.0 408283360   4928
+ 2036 somaiyahsultani   0.0 408107984   1904
+ 2041 somaiyahsultani   0.1 412786752  10800
+ 2166 somaiyahsultani   0.0 408207536   1408
+ 2181 _accessoryupdater  0.0 408263488   3984
+ 2190 somaiyahsultani   0.0 408283440   5424
+ 2191 somaiyahsultani   0.1 408321328   9120
+ 2210 root              0.0 408255616    976
+ 2312 somaiyahsultani   0.1 408273088  14368
+ 2446 somaiyahsultani   0.1 408310192  15104
+ 3523 somaiyahsultani   0.0 408281952   8064
+ 3546 somaiyahsultani   0.1 408308832  14896
+ 3835 somaiyahsultani   0.0 408264080   2656
+ 3896 somaiyahsultani   0.0 408086656   1408
+ 3904 somaiyahsultani   0.0 408266720   3952
+ 3905 somaiyahsultani   0.0 408264432   2720
+ 3941 somaiyahsultani   0.0 408210816   3760
+ 3961 _spotlight        0.0 408207840    736
+ 3964 root              0.0 408264272   3312
+ 3965 root              0.0 408265568   1200
+ 4096 root              0.0 408233696   2176
+ 4097 root              0.0 408102944   1216
+ 4098 root              0.0 408233456    848
+ 4099 somaiyahsultani   0.0 408266736   2896
+ 4100 somaiyahsultani   0.0 408086560   1024
+ 4105 root              0.0 408268544   3328
+ 4117 somaiyahsultani   0.0 408264368   1280
+ 4136 _hidd             0.0 408102400   1408
+ 4142 root              0.0 408102976   2000
+ 4145 somaiyahsultani   0.0 408132496   1488
+ 4156 somaiyahsultani   0.1 408280240  10400
+ 4177 _applepay         0.0 408269968   6416
+ 4178 _assetcache       0.0 408265872   3104
+ 4179 root              0.0 408213120    944
+ 4193 root              0.0 408233728    448
+ 4194 somaiyahsultani   0.1 408300864  11664
+ 4220 somaiyahsultani   0.0 408261312   8304
+ 4223 root              0.0 408047056      0
+ 4281 somaiyahsultani   0.0 408216080   1968
+ 4293 root              0.0 408667552   2464
+ 4302 somaiyahsultani   0.0 408233552   3632
+ 4326 root              0.0 408059024   3376
+ 4339 root              0.1 408284448  11936
+ 4340 root              0.0 408194112   2208
+ 4341 root              0.0 408184544   1520
+ 4403 root              0.0 408052880    864
+ 4441 somaiyahsultani   0.0 408229360   8256
+ 4500 somaiyahsultani   0.0 408094768   2624
+ 4507 somaiyahsultani   0.0 408078544   1072
+ 4823 root              0.0 408248976   2224
+ 4824 somaiyahsultani   0.0 408845040   3488
+ 4946 root              0.0 408267984   3200
+ 4947 root              0.0 408213504   2208
+ 4970 root              0.0 409115952   1024
+ 5023 somaiyahsultani   0.0 408237808    928
+ 5276 somaiyahsultani   0.0 408264480   3216
+ 5307 root              0.0 408234048    720
+ 5312 somaiyahsultani   0.0 409196112   5952
+ 5313 somaiyahsultani   0.0 408271104   2640
+ 5317 root              0.0 408047264   1216
+ 5319 somaiyahsultani   0.0 408830576   2416
+ 5332 root              0.0 408047952      0
+ 5334 root              0.0 408199552   1616
+ 5375 root              0.0 409219968   3248
+ 5378 somaiyahsultani   0.0 408267472   7760
+ 5379 _accessoryupdater  0.0 408208608   1648
+ 5380 root              0.0 408264704   4880
+ 5381 somaiyahsultani   0.0 408091904   2256
+ 5383 somaiyahsultani   0.0 408230960   3152
+ 5384 _rmd              0.0 408211168   1376
+ 5385 root              0.0 408039456    208
+ 5386 somaiyahsultani   0.0 408229600   3792
+ 5387 somaiyahsultani   0.0 408211184   1344
+ 5417 _rmd              0.0 408637552      0
+ 5420 somaiyahsultani   0.0 408637552      0
+ 5441 somaiyahsultani   0.0 408768624      0
+ 5442 _rmd              0.0 408768624      0
+ 5455 _rmd              0.0 408637552      0
+ 5456 somaiyahsultani   0.0 408637552      0
+ 5474 _rmd              0.0 408637744      0
+ 5475 somaiyahsultani   0.0 408693040   2528
+ 5476 _rmd              0.0 408667312   1120
+ 5477 somaiyahsultani   0.0 408667328   1136
+ 5479 root              0.0 408257040   2544
+ 5494 somaiyahsultani   0.0 408198224   1072
+ 5495 somaiyahsultani   0.0 408133904   4592
+ 5496 somaiyahsultani   0.0 409218960   6416
+ 5497 somaiyahsultani   0.0 408245520   7984
+ 5499 root              0.0 408217664   1456
+ 5500 _accessoryupdater  0.0 408263632   2688
+ 5501 _accessoryupdater  0.0 408212544   2224
+ 5516 somaiyahsultani   0.1 408243808   8928
+ 5517 root              0.0 408048352   1760
+ 5518 _gamecontrollerd  0.0 408265024   5792
+ 5519 _gamecontrollerd  0.0 408799216   3056
+ 5520 somaiyahsultani   0.0 408234064   1344
+ 5527 _softwareupdate   0.0 408211232   2592
+ 5528 root              0.0 408079024   1008
+ 5529 root              0.0 408077408   1472
+ 5534 somaiyahsultani   0.0 408047088   1616
+ 5537 root              0.0 408211728    768
+ 5539 _softwareupdate   0.0 408225856   1056
+ 5545 root              0.0 408178160   1104
+ 5546 root              0.0 408039456    208
+ 5566 root              0.0 408047648      0
+ 5599 _datadetectors    0.0 408178160   1760
+ 5965 root              0.2 408266128  26048
+ 6217 _applepay         0.0 408246048   7104
+ 6525 root              0.0 408215472   3296
+ 6599 somaiyahsultani   0.0 408398976   3248
+ 6688 _captiveagent     0.0 408264640   3488
+ 7031 _softwareupdate   0.0 408505552      0
+ 7035 _assetcache       0.0 408260880   5616
+ 7036 _nsurlsessiond    0.0 408826960   4864
+ 7040 _softwareupdate   0.0 408215936   3968
+ 7041 root              0.0 408801168   3568
+ 7168 root              0.0 408206960   2608
+ 7263 somaiyahsultani   0.0 408066624   2128
+ 7679 somaiyahsultani   0.1 412729424   8752
+ 7714 somaiyahsultani   0.0 408282768   7520
+ 7715 somaiyahsultani   0.0 408966464    976
+ 7717 somaiyahsultani   0.1 408325808   9136
+ 7718 somaiyahsultani   0.0 408827200    976
+ 7742 root              0.0 408211616   4720
+ 7786 somaiyahsultani   0.0 408233552   7808
+ 7793 somaiyahsultani   0.0 408178784   2048
+ 8019 root              0.0 408086560   1056
+ 8068 somaiyahsultani   0.0 408409872   2336
+ 8388 somaiyahsultani   0.1 408277712  11504
+ 8440 somaiyahsultani   0.0 409249360   2048
+ 8469 somaiyahsultani   0.0 408506832    336
+ 8592 root              0.0 408207440    832
+ 8752 _accessoryupdater  0.0 408077520    944
+ 8867 somaiyahsultani   0.0 408254832   7408
+ 9090 somaiyahsultani   0.0 408233584   3520
+ 9093 somaiyahsultani   1.7 415958128 289072
+ 9095 somaiyahsultani   0.9 413883472 147840
+ 9096 somaiyahsultani   0.0 408234048      0
+ 9097 somaiyahsultani   0.0 408897232   5984
+ 9098 somaiyahsultani   0.1 408945808  21904
+ 9101 somaiyahsultani   0.3 409013184  51200
+ 9103 somaiyahsultani   0.1 408884288  18080
+ 9112 somaiyahsultani   0.0 408274016   4144
+ 9123 somaiyahsultani   0.0 408246000    880
+ 9132 somaiyahsultani   0.0 408265008   6256
+ 9141 somaiyahsultani   0.1 408322912  19680
+ 9236 somaiyahsultani   0.0 408264432   3152
+ 9269 somaiyahsultani   1.5 414561056 253696
+ 9271 somaiyahsultani   0.0 408188992      0
+ 9275 somaiyahsultani   0.1 409093904  10464
+ 9592 root              0.0 408239488   2064
+11446 somaiyahsultani   0.0 409690416   8272
+12033 _nsurlsessiond    0.0 408234128   1440
+12452 root              0.0 408066080      0
+12477 root              0.0 408234672   4160
+12478 somaiyahsultani   0.0 408235696   4480
+12557 somaiyahsultani   0.0 408208448      0
+13179 somaiyahsultani   1.3 415142544 224000
+13181 somaiyahsultani   0.2 497853456  28816
+13182 somaiyahsultani   0.0 408217664      0
+13184 somaiyahsultani   0.0 412690704   6960
+13188 somaiyahsultani   0.4 514853584  68144
+13211 somaiyahsultani   0.0 408844608   1008
+13212 somaiyahsultani   0.0 408938000      0
+13215 somaiyahsultani   0.0 409247040    992
+13216 somaiyahsultani   0.0 409115968   1040
+13217 somaiyahsultani   0.0 408224832      0
+13218 somaiyahsultani   0.0 408206400      0
+13738 somaiyahsultani   0.3 408984496  55104
+13739 somaiyahsultani   0.0 408742272   7872
+14015 somaiyahsultani   0.0 408227568    864
+14421 root              0.0 408247024    464
+14458 somaiyahsultani   0.0 408975680   1024
+14463 somaiyahsultani   0.0 408075392    640
+15416 somaiyahsultani   0.7 413843520 112208
+15431 somaiyahsultani   0.0 408680064      0
+15432 somaiyahsultani   0.0 409082176      0
+15433 somaiyahsultani   0.0 408679024      0
+15440 somaiyahsultani   0.0 408338496      0
+15453 somaiyahsultani   0.1 408941968  16624
+15454 somaiyahsultani   0.0 408741712   7248
+15465 somaiyahsultani   0.0 409247040   1008
+15470 somaiyahsultani   0.0 408851968   1072
+15546 somaiyahsultani   0.0 408264912   6768
+15677 root              0.0 408268400    912
+16467 somaiyahsultani   0.3 408396752  44320
+16891 somaiyahsultani   0.0 408237808    912
+16931 somaiyahsultani   0.0 409097536   1024
+17123 somaiyahsultani   1.1 410089888 184608
+17124 somaiyahsultani   0.1 408915792  15280
+17125 somaiyahsultani   0.0 408741696   7264
+17176 somaiyahsultani   0.0 408636656      0
+17183 somaiyahsultani   0.0 408496576      0
+17193 somaiyahsultani   0.0 408636656      0
+17199 somaiyahsultani   0.0 408505792      0
+17201 somaiyahsultani   0.0 408646896      0
+17207 somaiyahsultani   0.0 408505792      0
+17209 somaiyahsultani   0.0 408655088      0
+17211 somaiyahsultani   0.0 408507840      0
+17219 somaiyahsultani   0.0 408644848      0
+17225 somaiyahsultani   0.0 408508864      0
+17227 somaiyahsultani   0.0 408636656      0
+17233 somaiyahsultani   0.0 408507840      0
+17235 somaiyahsultani   0.0 408645872      0
+17237 somaiyahsultani   0.0 408506816      0
+17247 somaiyahsultani   0.0 408645872      0
+17253 somaiyahsultani   0.0 408498624      0
+17255 somaiyahsultani   0.0 408637680      0
+17261 somaiyahsultani   0.0 408517056      0
+17263 somaiyahsultani   0.0 408636656      0
+17265 somaiyahsultani   0.0 408506816      0
+17273 somaiyahsultani   0.0 408627440      0
+17278 somaiyahsultani   0.0 408506816      0
+17365 somaiyahsultani   0.0 408636656      0
+17370 somaiyahsultani   0.0 408506816      0
+17378 somaiyahsultani   0.0 408645872      0
+17384 somaiyahsultani   0.0 408516032      0
+17386 somaiyahsultani   0.0 408644848      0
+17392 somaiyahsultani   0.0 408515008      0
+17394 somaiyahsultani   0.0 408646896      0
+17396 somaiyahsultani   0.0 408515008      0
+17481 somaiyahsultani   0.0 408637680      0
+17487 somaiyahsultani   0.0 408507840      0
+17489 somaiyahsultani   0.0 408637680      0
+17495 somaiyahsultani   0.0 408523200      0
+17497 somaiyahsultani   0.0 408637680      0
+17499 somaiyahsultani   0.0 408506816      0
+17515 somaiyahsultani   0.0 408656112      0
+17516 somaiyahsultani   0.0 408645872      0
+17517 somaiyahsultani   0.0 408637680      0
+17520 somaiyahsultani   0.0 408506816      0
+17521 somaiyahsultani   0.0 408505792      0
+17525 somaiyahsultani   0.0 408505792      0
+17537 somaiyahsultani   0.0 408628464      0
+17538 somaiyahsultani   0.0 408636656      0
+17544 somaiyahsultani   0.0 408507840      0
+17547 somaiyahsultani   0.0 408525248      0
+17549 somaiyahsultani   0.0 408639728      0
+17551 somaiyahsultani   0.0 408505792      0
+17559 somaiyahsultani   0.0 408636656      0
+17565 somaiyahsultani   0.0 408507840      0
+17567 somaiyahsultani   0.0 408646896      0
+17573 somaiyahsultani   0.0 408506816      0
+17575 somaiyahsultani   0.0 408646896      0
+17577 somaiyahsultani   0.0 408513984      0
+17584 somaiyahsultani   0.0 408645872      0
+17588 somaiyahsultani   0.0 408636656      0
+17592 somaiyahsultani   0.0 408636656      0
+17606 somaiyahsultani   0.0 408506816      0
+17607 somaiyahsultani   0.0 408507840      0
+17608 somaiyahsultani   0.0 408498624      0
+17617 somaiyahsultani   0.0 408628464      0
+17623 somaiyahsultani   0.0 408506816      0
+17631 somaiyahsultani   0.0 408645872      0
+17637 somaiyahsultani   0.0 408505792      0
+17639 somaiyahsultani   0.0 408637680      0
+17645 somaiyahsultani   0.0 408505792      0
+17647 somaiyahsultani   0.0 408637680      0
+17649 somaiyahsultani   0.0 408496576      0
+17658 somaiyahsultani   0.0 408636656      0
+17664 somaiyahsultani   0.0 408506816      0
+17666 somaiyahsultani   0.0 408636656      0
+17672 somaiyahsultani   0.0 408497600      0
+17674 somaiyahsultani   0.0 408628464      0
+17676 somaiyahsultani   0.0 408506816      0
+17683 somaiyahsultani   0.0 408627440      0
+17687 somaiyahsultani   0.0 408627440      0
+17691 somaiyahsultani   0.0 408636656      0
+17704 somaiyahsultani   0.0 408506816      0
+17705 somaiyahsultani   0.0 408505792      0
+17708 somaiyahsultani   0.0 408515008      0
+17715 somaiyahsultani   0.0 408636656      0
+17719 somaiyahsultani   0.0 408637680      0
+17728 somaiyahsultani   0.0 408505792      0
+17729 somaiyahsultani   0.0 408516032      0
+17928 somaiyahsultani   0.0 408209136    976
+18622 somaiyahsultani   0.6 410442752  99840
+18623 somaiyahsultani   0.2 408974112  30672
+18624 somaiyahsultani   0.0 408742720   7632
+18625 somaiyahsultani   0.0 408255216    880
+18633 somaiyahsultani   0.0 408247680   2576
+18698 root              0.0 408218016   5904
+18885 somaiyahsultani   0.0 408856448   2208
+18886 somaiyahsultani   0.0 408270832   1024
+18887 somaiyahsultani   0.0 408198208      0
+18921 somaiyahsultani   0.0 408265024   3328
+19185 root              0.2 408318752  36384
+19195 _driverkit        0.0 408497920    816
+19557 _trustd           0.1 408279136  13728
+19570 somaiyahsultani   0.1 408355360  16016
+19571 _spotlight        0.1 408242656   9392
+19575 somaiyahsultani   0.0 408536624   4992
+19577 root              0.0 408506032   2448
+19805 somaiyahsultani   0.7 1585840896 120864
+19807 somaiyahsultani   0.0 441604928   4528
+19808 somaiyahsultani   0.3 441999216  44288
+19809 somaiyahsultani   0.2 441883104  30160
+19810 somaiyahsultani   0.0 409112896   6880
+19811 somaiyahsultani   1.1 1595732592 178304
+19819 somaiyahsultani   0.4 1585116976  70064
+19844 somaiyahsultani   0.4 408993584  60752
+19845 somaiyahsultani   0.1 408743232  18432
+19869 somaiyahsultani   0.0 408695744   6464
+19870 somaiyahsultani   0.0 409247536   4496
+19916 somaiyahsultani   0.1 408283536  23200
+19959 somaiyahsultani   0.2 1585153472  41872
+19960 somaiyahsultani   0.5 1585151312  86576
+19984 somaiyahsultani   0.1 409092032  12960
+19993 somaiyahsultani   0.0 409176688   7120
+20026 somaiyahsultani   0.4 514633664  60304
+20028 somaiyahsultani   0.4 497725392  60768
+20029 somaiyahsultani   0.0 409107776   4432
+20410 somaiyahsultani   0.0 409098560   4448
+20461 somaiyahsultani   0.5 500028240  85696
+20462 somaiyahsultani   0.0 409379136   4096
+20463 somaiyahsultani   0.0 408975680   4176
+20498 somaiyahsultani   0.3 409853472  58496
+20499 somaiyahsultani   0.0 408817984   4304
+20757 somaiyahsultani   1.2 409105456 193168
+20868 somaiyahsultani   0.0 408228080   4384
+20989 somaiyahsultani   0.7 498477392 112336
+20992 somaiyahsultani   0.0 408836416   3856
+21908 somaiyahsultani   0.1 408288448  23952
+21934 somaiyahsultani   0.0 408696128   3872
+21947 somaiyahsultani   1.3 414612000 215008
+21950 somaiyahsultani   0.0 408197184   3408
+21951 somaiyahsultani   0.0 408987328   5792
+22206 somaiyahsultani   0.0 408210000   6656
+22207 somaiyahsultani   0.0 408215616   3424
+22265 somaiyahsultani   0.0 408209584   7392
+22305 somaiyahsultani   0.0 408198208   3488
+22366 somaiyahsultani   0.1 408299520  20992
+22394 somaiyahsultani   0.2 408452672  40864
+22396 somaiyahsultani   0.1 408074896   9520
+22398 somaiyahsultani   0.0 408959296   4464
+22399 somaiyahsultani   0.4 408978944  65120
+22400 somaiyahsultani   0.1 408741696  19072
+22401 somaiyahsultani   0.0 408817984   5280
+22429 somaiyahsultani   0.1 409369920  18480
+22430 somaiyahsultani   0.0 408958272   4752
+22502 _locationd        0.0 408211104   7040
+22749 somaiyahsultani   7.6 516408688 1277248
+24932 _netbios          0.0 408179136   5248
+25077 somaiyahsultani   2.4 515500560 399664
+25086 somaiyahsultani   1.1 410404512 179056
+25104 somaiyahsultani   1.2 514986992 202384
+25107 somaiyahsultani   0.0 409115968   8272
+25147 somaiyahsultani   1.3 410057696 217024
+25167 somaiyahsultani   0.0 408827200   4448
+25180 somaiyahsultani   0.1 408264544  10288
+25186 somaiyahsultani   0.1 408228384  15648
+25276 somaiyahsultani   1.5 514729536 244736
+25304 somaiyahsultani   1.4 498023520 241184
+25305 somaiyahsultani   0.2 513967600  34992
+25958 somaiyahsultani   0.3 408328672  44896
+26295 somaiyahsultani   0.1 408252800  14160
+26297 somaiyahsultani   0.1 408240816  21648
+26308 somaiyahsultani   0.1 408215776  16112
+26309 somaiyahsultani   0.1 408232160  16192
+26310 somaiyahsultani   0.1 408222944  16096
+25148 root              0.0 408656720   4880
+25149 somaiyahsultani   0.0 408692224   4176
+26289 somaiyahsultani   0.0 408637952   2688
+26311 somaiyahsultani   0.0 408627440   1712
+26312 root              0.0 408626864   2048
+
+------------------------------Top Memory Usage By Process-------------------------------------
+
+
+
+--------------------------------- Top Memory Usage By VM --------------------------------------
+
+
+-------------------------------------Top Memory by User----------------------------------------
+
+
+
+Report Generated on: *05 ноября 2023 (воскресенье)*
+
+-----------------------------------Memory Audit Script----------------------------------------
+
+---------------------------General and Virtual Memory Overview -------------------------------
+
+
+Memory Overview:
+------------------------------------Memory Usage----------------------------------------------
+
+  PID USER             %MEM      VSZ    RSS
+    1 root              0.2 409087808  25696
+  297 root              0.3 408414368  42928
+  299 root              0.0 408266560   7936
+  301 root              0.0 408053824   1056
+  302 root              0.0 408383264   7184
+  303 root              0.1 408278048  16064
+  306 root              0.0 408276272   7616
+  308 root              0.1 408268544   9424
+  309 root              0.0 408047152    544
+  310 root              0.0 408265840   7472
+  311 _biome            0.0 408264512   4944
+  313 root              0.0 408265072   3632
+  315 root              0.0 408264096   1264
+  320 root              0.0 408070256   1136
+  324 root              0.2 408578720  31600
+  325 _iconservices     0.0 408264352   3136
+  326 root              0.0 408271600   5648
+  327 root              0.0 408263888   3184
+  330 root              0.1 408285808  21168
+  331 root              0.0 408234672   1488
+  334 root              0.0 408263760   2032
+  335 root              0.1 408295376  14960
+  336 root              0.1 408352656  11248
+  337 root              0.1 408269808  13648
+  338 _timed            0.0 408264448   4336
+  339 _usbmuxd          0.0 408270928   2416
+  340 root              0.0 408268832   6464
+  341 root              0.0 408068560    368
+  343 _locationd        0.1 408308080  19616
+  345 root              0.0 408179744      0
+  346 root              0.1 408293888  20880
+  348 _distnote         0.0 408168944   2288
+  349 root              0.0 408103040   1488
+  350 root              0.2 408281344  26656
+  352 root              0.0 408102464   3504
+  353 root              0.0 408273072   7584
+  354 root              0.0 408077360      0
+  355 root              0.0 408823744   5648
+  358 root              0.0 408233744   2848
+  360 root              0.0 408265104   6928
+  361 root              0.1 408266288  18976
+  363 root              0.0 408200944    752
+  364 root              0.1 408294352  20256
+  365 _windowserver     1.2 412701488 197568
+  368 root              0.1 408273744  11792
+  370 somaiyahsultani   0.3 409953968  50432
+  371 root              0.1 408273792  10496
+  372 root              0.1 408287216  13680
+  373 root              0.0 408178336   2624
+  374 root              0.0 408266512   5696
+  375 root              0.0 408257648   2576
+  385 root              0.1 408277328  13408
+  391 _analyticsd       0.1 408274704  10448
+  393 root              0.1 408284256  24048
+  415 _coreaudiod       0.5 409373984  83168
+  426 _nsurlsessiond    0.1 408307472   9136
+  427 root              0.0 408233696   2736
+  428 root              0.0 408263936   4752
+  431 root              0.1 408280048  17632
+  432 _networkd         0.1 408277216  10944
+  435 root              0.0 408263216   4272
+  436 root              0.0 408168944    704
+  440 _windowserver     0.0 408168944    704
+  442 root              0.0 408264864   6864
+  450 _coreaudiod       0.0 408168944    704
+  451 _mdnsresponder    0.1 408354000  13168
+  457 root              0.0 408264432   1776
+  458 root              0.0 408264528   1968
+  461 _cmiodalassistants  0.0 408168944    704
+  462 _softwareupdate   0.1 412769680  22224
+  464 root              0.0 408266320   4112
+  465 root              0.0 408234000   3104
+  467 _softwareupdate   0.0 408168944    704
+  470 root              0.4 411810272  67104
+  475 _spotlight        0.0 408168944    704
+  487 _cmiodalassistants  0.0 408281856   8064
+  488 root              0.0 408267216   7328
+  489 _cmiodalassistants  0.0 408266384   4944
+  490 root              0.0 408227456   1504
+  494 root              0.0 408824192   2560
+  496 root              0.1 408204528   9360
+  500 root              0.2 408373648  29488
+  501 root              0.5 408347168  83264
+  503 root              0.0 408275840   3296
+  506 _locationd        0.1 408307808   9968
+  507 _locationd        0.0 408168944   1008
+  514 root              0.0 408264176   4672
+  516 _driverkit        0.0 408496816    464
+  517 _driverkit        0.0 408530032   1728
+  518 _appleevents      0.0 408264976   4576
+  524 root              0.1 408272032  10848
+  555 _nsurlsessiond    0.0 408168944    704
+  561 root              0.0 408264608   5664
+  566 root              0.0 408265392   5360
+  567 root              0.0 408265312   7920
+  568 _mysql            0.0 409758848   4096
+  569 somaiyahsultani   0.0 408170992   4960
+  571 root              0.0 408225904    400
+  573 somaiyahsultani   0.0 408268784   8016
+  577 somaiyahsultani   0.1 409658160  17840
+  578 somaiyahsultani   0.2 408291888  25936
+  579 somaiyahsultani   0.1 409793312  21664
+  580 somaiyahsultani   0.1 408295984   9856
+  581 root              0.0 408269920   6960
+  582 somaiyahsultani   0.2 410178016  39744
+  583 somaiyahsultani   0.1 408274464   9840
+  584 somaiyahsultani   0.4 409919184  63168
+  585 somaiyahsultani   0.1 409865168  18544
+  586 somaiyahsultani   0.5 414499360  75824
+  587 somaiyahsultani   0.0 408264384   5424
+  590 somaiyahsultani   0.0 408263328   7840
+  591 somaiyahsultani   0.1 408514192  16576
+  592 somaiyahsultani   0.1 408266384  12192
+  593 root              0.0 408271808   5696
+  594 somaiyahsultani   0.0 408102944   2384
+  595 somaiyahsultani   0.1 408276736  10704
+  596 somaiyahsultani   0.1 408762272   9312
+  597 somaiyahsultani   0.0 408270736   7712
+  599 somaiyahsultani   0.1 408306560  14448
+  600 somaiyahsultani   0.0 408265088   4320
+  601 somaiyahsultani   0.0 408266832   6800
+  602 root              0.1 408286896  13296
+  603 somaiyahsultani   0.1 408266928  10672
+  604 somaiyahsultani   0.1 408306800  19792
+  605 somaiyahsultani   0.1 408283296  20832
+  606 somaiyahsultani   0.0 408263776   5152
+  607 somaiyahsultani   0.1 408276144  14288
+  608 somaiyahsultani   0.1 408288128  13872
+  609 somaiyahsultani   0.1 408321408  24896
+  610 somaiyahsultani   0.2 408518144  28400
+  612 somaiyahsultani   0.0 408242208   6624
+  613 somaiyahsultani   0.0 408233536   4992
+  614 _appleevents      0.0 408168944    704
+  615 root              0.1 408242096   9760
+  616 somaiyahsultani   0.1 408422240  13984
+  617 somaiyahsultani   0.2 408308272  29968
+  618 somaiyahsultani   0.1 408283408  21136
+  619 somaiyahsultani   0.1 408273040  11024
+  620 somaiyahsultani   0.1 408389792  10016
+  621 somaiyahsultani   0.1 408418064  21280
+  622 somaiyahsultani   0.0 408219072   8288
+  623 somaiyahsultani   0.2 408290048  30912
+  624 somaiyahsultani   0.1 408664608   9584
+  625 somaiyahsultani   0.1 408285776  10736
+  626 somaiyahsultani   0.2 408307872  27920
+  627 somaiyahsultani   0.2 408374576  32896
+  629 somaiyahsultani   0.1 408273600  12608
+  630 somaiyahsultani   0.1 408304224  23056
+  631 somaiyahsultani   0.2 408437792  28464
+  632 root              0.0 408095984    112
+  633 somaiyahsultani   0.0 408266608   7920
+  634 somaiyahsultani   0.1 408285216  12768
+  635 somaiyahsultani   0.0 408272256   2960
+  638 somaiyahsultani   0.1 408266928   8608
+  639 somaiyahsultani   0.0 409183456   6640
+  640 somaiyahsultani   0.3 409884576  47360
+  642 somaiyahsultani   0.1 408314752  12912
+  643 somaiyahsultani   0.1 408479792  17328
+  644 somaiyahsultani   0.0 408265216   8320
+  645 somaiyahsultani   0.0 408287488   1184
+  646 somaiyahsultani   0.1 408292240  18160
+  647 somaiyahsultani   0.1 408276704  10928
+  648 somaiyahsultani   0.2 408313344  39840
+  649 somaiyahsultani   0.1 408221008  12640
+  652 somaiyahsultani   0.0 408267424   7808
+  654 somaiyahsultani   0.1 409766928  10752
+  656 somaiyahsultani   0.0 408264064   2304
+  657 somaiyahsultani   0.0 408268512   2368
+  659 somaiyahsultani   0.2 408346736  33488
+  660 somaiyahsultani   0.1 409697456  22352
+  661 somaiyahsultani   0.1 408268416  12176
+  662 somaiyahsultani   0.1 408270144  20272
+  663 somaiyahsultani   0.0 408211520   6640
+  665 somaiyahsultani   0.1 409865520  17056
+  667 somaiyahsultani   0.1 408266784   8928
+  669 root              0.0 408233584   2272
+  670 somaiyahsultani   0.1 408270416  16304
+  671 somaiyahsultani   0.6 408641056  99216
+  672 somaiyahsultani   0.0 408279568   6240
+  673 somaiyahsultani   0.1 408825008  23360
+  675 somaiyahsultani   0.0 408233616   2576
+  677 somaiyahsultani   0.1 408317120  13760
+  678 somaiyahsultani   0.1 408799200  20384
+  679 somaiyahsultani   0.0 408272336   5664
+  680 somaiyahsultani   0.0 408264304   3648
+  681 somaiyahsultani   0.0 408103632   3104
+  682 somaiyahsultani   0.0 408263872   5248
+  684 _oahd             0.0 408508672    768
+  685 somaiyahsultani   0.0 408273104   5728
+  686 somaiyahsultani   0.0 408265424   8208
+  688 _nearbyd          0.0 408272304   7232
+  689 somaiyahsultani   0.1 409837056  13088
+  690 somaiyahsultani   0.1 408275152  11936
+  691 somaiyahsultani   1.2 411821296 203232
+  693 somaiyahsultani   0.1 408292128  10048
+  695 _fpsd             0.0 408104912   3328
+  696 somaiyahsultani   0.0 408242464   7392
+  697 somaiyahsultani   0.6 409586816 107968
+  699 somaiyahsultani   0.1 408355984  17920
+  702 somaiyahsultani   0.1 408421456  11600
+  704 somaiyahsultani   0.1 408390736  13904
+  705 somaiyahsultani   0.1 408275200  10096
+  708 somaiyahsultani   0.1 408322528  14320
+  709 somaiyahsultani   0.1 408305872  12640
+  711 somaiyahsultani   0.1 408273424  10640
+  713 somaiyahsultani   0.1 412747248  17472
+  715 somaiyahsultani   0.1 409766624  10224
+  717 root              0.1 408281760   8560
+  718 somaiyahsultani   0.0 408263728   6304
+  719 somaiyahsultani   0.0 408102384   2128
+  720 somaiyahsultani   0.1 408275392  13792
+  721 somaiyahsultani   0.1 409642992  17616
+  722 somaiyahsultani   0.1 408271728   9152
+  723 somaiyahsultani   0.2 408438768  31152
+  724 root              0.0 408263728   2992
+  725 somaiyahsultani   0.2 408524272  32928
+  726 somaiyahsultani   0.3 408353200  45888
+  727 somaiyahsultani   0.2 408345040  31920
+  728 somaiyahsultani   0.1 408312816  20288
+  730 somaiyahsultani   0.1 408341632  24096
+  734 somaiyahsultani   0.1 408275520  11872
+  735 somaiyahsultani   0.1 409657152  12240
+  736 somaiyahsultani   0.0 408264784   5120
+  737 somaiyahsultani   0.1 408283968   9200
+  739 somaiyahsultani   0.0 408233856   2240
+  740 somaiyahsultani   0.0 408265248   6144
+  741 somaiyahsultani   0.0 408263728   4832
+  743 somaiyahsultani   0.0 408264672   6704
+  744 root              0.1 408280912   8624
+  746 somaiyahsultani   1.7 410106688 284560
+  748 somaiyahsultani   0.1 408301584  15008
+  749 root              0.0 408208528    320
+  750 somaiyahsultani   0.0 408234048   2304
+  753 somaiyahsultani   0.1 408430976  11824
+  754 somaiyahsultani   0.1 408296496  17008
+  759 somaiyahsultani   0.1 409661328   9408
+  762 somaiyahsultani   0.0 408263808   1952
+  763 somaiyahsultani   0.0 408268496   6688
+  765 root              0.0 408264288   5328
+  768 root              0.0 408265456   4096
+  772 somaiyahsultani   0.1 408272784   8720
+  778 root              0.0 408592720   1152
+  779 _gamecontrollerd  0.0 408168944    704
+  781 somaiyahsultani   0.1 408281968  13904
+  782 root              0.0 408102960   2464
+  784 somaiyahsultani   0.1 412715536  24384
+  785 somaiyahsultani   0.0 408263856   3632
+  786 root              0.0 408434368   5344
+  787 somaiyahsultani   0.2 408387184  36416
+  788 somaiyahsultani   0.2 408399840  29024
+  789 somaiyahsultani   0.0 408235072   2048
+  791 root              0.0 408264224   5120
+  792 root              0.0 408265456   4448
+  793 _applepay         0.0 408168944    704
+  796 somaiyahsultani   0.0 408265120   4192
+  802 somaiyahsultani   0.0 408257008   5760
+  805 somaiyahsultani   0.0 408267856   4816
+  810 somaiyahsultani   0.1 408409360  15824
+  811 somaiyahsultani   0.0 408268832   8096
+  812 somaiyahsultani   0.0 408234224   3184
+  814 somaiyahsultani   0.0 408264672   4976
+  815 somaiyahsultani   0.0 408271120   6272
+  817 somaiyahsultani   0.1 408279840  17472
+  818 somaiyahsultani   0.0 408583888   6368
+  821 somaiyahsultani   0.0 408132560   3568
+  823 _accessoryupdater  0.0 408168944    704
+  831 somaiyahsultani   0.0 408233440   1888
+  832 _softwareupdate   0.1 412919488   9504
+  833 somaiyahsultani   0.1 409698720  14272
+  840 somaiyahsultani   0.1 412926432  16624
+  847 root              0.0 409641264   1472
+  852 somaiyahsultani   0.1 408267520   9216
+  854 somaiyahsultani   0.1 408274288   9248
+  855 somaiyahsultani   0.0 408217328   6496
+  858 _fpsd             0.0 408207120   6160
+  859 root              0.0 408084192   1584
+  860 root              0.0 408211888   6832
+  862 _assetcache       0.0 408168944    704
+  866 somaiyahsultani   0.1 409659376   9072
+  871 somaiyahsultani   0.0 408572848   7216
+  872 somaiyahsultani   0.1 408277536  10624
+  873 somaiyahsultani   0.1 408274912  10496
+  874 somaiyahsultani   0.1 408323296  17008
+  876 somaiyahsultani   0.2 408304336  28944
+  877 somaiyahsultani   0.0 408268208   6640
+  886 somaiyahsultani   0.0 408267136   4592
+  905 root              0.0 408047712    768
+  908 somaiyahsultani   0.1 412833296   8912
+  913 somaiyahsultani   0.1 408230384  13280
+  914 root              0.0 408178176   2080
+  917 somaiyahsultani   0.0 408265344   8352
+  933 _spotlight        0.0 408222496   3728
+  951 somaiyahsultani   0.1 408510096  21200
+  953 somaiyahsultani   0.1 408271104  12896
+  960 somaiyahsultani   0.1 409693520  12464
+  962 somaiyahsultani   0.0 409384560   2704
+  964 somaiyahsultani   0.1 408285760  20480
+  966 somaiyahsultani   0.0 408234080   4816
+  969 _rmd              0.0 408168944    704
+  978 root              0.0 408208832   2528
+  979 somaiyahsultani   0.2 408342064  37824
+  982 somaiyahsultani   0.0 408272352   6192
+  985 somaiyahsultani   0.0 408255936   2688
+ 1008 somaiyahsultani   0.0 408209120   4944
+ 1016 _fpsd             0.2 408307664  25424
+ 1019 somaiyahsultani   0.3 413790048  43792
+ 1047 root              0.0 408075344   1072
+ 1141 root              0.1 408293456  16400
+ 1174 somaiyahsultani   0.0 408209456   3520
+ 1207 somaiyahsultani   0.1 408357616  16816
+ 1424 somaiyahsultani   0.1 408322048  13136
+ 1711 somaiyahsultani   0.1 409345120  13520
+ 1959 somaiyahsultani   0.0 408264704   6848
+ 1988 root              0.0 408269440   3616
+ 1989 _accessoryupdater  0.0 408267792   4816
+ 1990 _accessoryupdater  0.0 408802528   3856
+ 1991 somaiyahsultani   0.1 408343280  21088
+ 2000 root              0.0 408103136   2832
+ 2035 somaiyahsultani   0.0 408283360   4528
+ 2036 somaiyahsultani   0.0 408107984   1920
+ 2041 somaiyahsultani   0.1 412786752  11856
+ 2166 somaiyahsultani   0.0 408207536   1248
+ 2181 _accessoryupdater  0.0 408263488   4048
+ 2190 somaiyahsultani   0.0 408283440   5360
+ 2191 somaiyahsultani   0.1 408321328  10416
+ 2210 root              0.0 408255616    976
+ 2312 somaiyahsultani   0.0 408273088   5840
+ 2446 somaiyahsultani   0.1 408310192   8624
+ 3523 somaiyahsultani   0.1 408281952   9232
+ 3546 somaiyahsultani   0.1 408309312  15760
+ 3835 somaiyahsultani   0.0 408263520   2592
+ 3896 somaiyahsultani   0.0 408086656   1408
+ 3904 somaiyahsultani   0.0 408266720   2880
+ 3905 somaiyahsultani   0.0 408264432   2720
+ 3941 somaiyahsultani   0.0 408210816   3808
+ 3961 _spotlight        0.0 408207840    736
+ 3964 root              0.0 408264272   2720
+ 3965 root              0.0 408265568   1072
+ 4096 root              0.0 408233696   3024
+ 4097 root              0.0 408102944   1360
+ 4098 root              0.0 408233456   1984
+ 4099 somaiyahsultani   0.0 408266864   4160
+ 4100 somaiyahsultani   0.0 408086560    992
+ 4105 root              0.0 408268544   2896
+ 4117 somaiyahsultani   0.0 408264368   1232
+ 4136 _hidd             0.0 408102400   1824
+ 4142 root              0.0 408102976   2032
+ 4145 somaiyahsultani   0.0 408132496   1408
+ 4156 somaiyahsultani   0.0 408280240   8256
+ 4177 _applepay         0.0 408269968   5792
+ 4178 _assetcache       0.0 408265872   2640
+ 4179 root              0.0 408213120    896
+ 4193 root              0.0 408233728   1408
+ 4194 somaiyahsultani   0.1 408300864  11536
+ 4220 somaiyahsultani   0.0 408261312   8048
+ 4223 root              0.0 408047056      0
+ 4281 somaiyahsultani   0.0 408216080   1904
+ 4293 root              0.0 408667552   2304
+ 4302 somaiyahsultani   0.0 408233552   4240
+ 4326 root              0.0 408059024   2032
+ 4339 root              0.0 408286528   8240
+ 4340 root              0.0 408193328   1792
+ 4341 root              0.0 408184544   1472
+ 4403 root              0.0 408052880    816
+ 4441 somaiyahsultani   0.0 408229360   5840
+ 4500 somaiyahsultani   0.0 408094768   3024
+ 4507 somaiyahsultani   0.0 408078544   1056
+ 4823 root              0.0 408248976   1232
+ 4824 somaiyahsultani   0.0 408845040   1584
+ 4946 root              0.0 408267984   3200
+ 4947 root              0.0 408213504   2112
+ 4970 root              0.0 409115952    976
+ 5023 somaiyahsultani   0.0 408237808    912
+ 5276 somaiyahsultani   0.0 408264480   3264
+ 5307 root              0.0 408234048    720
+ 5312 somaiyahsultani   0.0 409196240   5280
+ 5313 somaiyahsultani   0.0 408271104   2560
+ 5317 root              0.0 408047264    976
+ 5319 somaiyahsultani   0.0 408830624   2080
+ 5332 root              0.0 408047952    736
+ 5334 root              0.0 408199552    592
+ 5375 root              0.0 409219968   3344
+ 5378 somaiyahsultani   0.0 408267472   6128
+ 5379 _accessoryupdater  0.0 408208608   1680
+ 5380 root              0.0 408264704   3584
+ 5381 somaiyahsultani   0.0 408091904   2128
+ 5383 somaiyahsultani   0.0 408230960   3152
+ 5384 _rmd              0.0 408211168   1264
+ 5385 root              0.0 408039456    208
+ 5386 somaiyahsultani   0.0 408229600   4000
+ 5387 somaiyahsultani   0.0 408211184   1408
+ 5417 _rmd              0.0 408637552      0
+ 5420 somaiyahsultani   0.0 408637552      0
+ 5441 somaiyahsultani   0.0 408768624      0
+ 5442 _rmd              0.0 408768624      0
+ 5455 _rmd              0.0 408637552      0
+ 5456 somaiyahsultani   0.0 408637552      0
+ 5474 _rmd              0.0 408637744      0
+ 5475 somaiyahsultani   0.0 408693040   2096
+ 5476 _rmd              0.0 408667312   1008
+ 5477 somaiyahsultani   0.0 408667328   1024
+ 5479 root              0.0 408265232   2576
+ 5494 somaiyahsultani   0.0 408198224   1088
+ 5495 somaiyahsultani   0.0 408133904   4480
+ 5496 somaiyahsultani   0.0 409218976   5616
+ 5497 somaiyahsultani   0.0 408245520   6224
+ 5499 root              0.0 408217664   1456
+ 5500 _accessoryupdater  0.0 408263632   2592
+ 5501 _accessoryupdater  0.0 408212544   2240
+ 5516 somaiyahsultani   0.0 408243808   8192
+ 5517 root              0.0 408048352   1792
+ 5518 _gamecontrollerd  0.0 408266048   5008
+ 5519 _gamecontrollerd  0.0 408799216   3152
+ 5520 somaiyahsultani   0.0 408234064   1264
+ 5527 _softwareupdate   0.0 408211232   2656
+ 5528 root              0.0 408079024    992
+ 5529 root              0.0 408077408   1344
+ 5534 somaiyahsultani   0.0 408047088   1648
+ 5537 root              0.0 408211728    224
+ 5539 _softwareupdate   0.0 408225856   1104
+ 5545 root              0.0 408178160   1120
+ 5546 root              0.0 408039456    192
+ 5566 root              0.0 408047648    208
+ 5599 _datadetectors    0.0 408178160   1744
+ 5965 root              0.1 408266128   8912
+ 6217 _applepay         0.0 408246048   7152
+ 6525 root              0.0 408215472   2768
+ 6599 somaiyahsultani   0.0 408398976   3952
+ 6688 _captiveagent     0.0 408264640   2352
+ 7031 _softwareupdate   0.0 408505552      0
+ 7035 _assetcache       0.0 408260880   4336
+ 7036 _nsurlsessiond    0.0 408826960   3328
+ 7040 _softwareupdate   0.0 408215936   3552
+ 7041 root              0.0 408801728   3808
+ 7168 root              0.0 408206960   2272
+ 7263 somaiyahsultani   0.0 408066624   2208
+ 7679 somaiyahsultani   0.1 412729424   8528
+ 7714 somaiyahsultani   0.1 408282768   8512
+ 7715 somaiyahsultani   0.0 408966464   1040
+ 7717 somaiyahsultani   0.1 408325808  10912
+ 7718 somaiyahsultani   0.0 408827200   1056
+ 7786 somaiyahsultani   0.0 408233680   7376
+ 7793 somaiyahsultani   0.0 408178784   2064
+ 8019 root              0.0 408086560   1040
+ 8068 somaiyahsultani   0.0 408409872   1232
+ 8388 somaiyahsultani   0.1 408277712  10000
+ 8440 somaiyahsultani   0.0 409249360   1568
+ 8469 somaiyahsultani   0.0 408506832    336
+ 8592 root              0.0 408207440    768
+ 8752 _accessoryupdater  0.0 408077520    944
+ 8867 somaiyahsultani   0.0 408254832   3808
+ 9090 somaiyahsultani   0.0 408233584   3456
+ 9093 somaiyahsultani   1.7 415794256 281312
+ 9095 somaiyahsultani   1.4 413964688 227024
+ 9096 somaiyahsultani   0.0 408234048      0
+ 9097 somaiyahsultani   0.0 408897584   6144
+ 9098 somaiyahsultani   0.1 408945808  20128
+ 9101 somaiyahsultani   0.3 409013760  50080
+ 9103 somaiyahsultani   0.1 408884288  19152
+ 9112 somaiyahsultani   0.0 408274016   4112
+ 9123 somaiyahsultani   0.0 408246000    848
+ 9132 somaiyahsultani   0.0 408265008   5920
+ 9141 somaiyahsultani   0.1 408322912  15568
+ 9236 somaiyahsultani   0.0 408264432   2864
+ 9269 somaiyahsultani   0.9 414591616 144384
+ 9271 somaiyahsultani   0.0 408188992      0
+ 9275 somaiyahsultani   0.1 409170144   9888
+ 9592 root              0.0 408239488   2096
+11446 somaiyahsultani   0.1 409690416   9440
+12033 _nsurlsessiond    0.0 408234128   1424
+12452 root              0.0 408066080      0
+12477 root              0.0 408234112   4144
+12478 somaiyahsultani   0.0 408235168   4208
+12557 somaiyahsultani   0.0 408208448      0
+13179 somaiyahsultani   1.4 415357296 227968
+13181 somaiyahsultani   0.2 497853008  29424
+13182 somaiyahsultani   0.0 408217664      0
+13184 somaiyahsultani   0.0 412690704   5984
+13188 somaiyahsultani   0.2 514854720  38096
+13211 somaiyahsultani   0.0 408844608    960
+13212 somaiyahsultani   0.0 408938000      0
+13215 somaiyahsultani   0.0 409247040   1056
+13216 somaiyahsultani   0.0 409115968    976
+13217 somaiyahsultani   0.0 408224832      0
+13218 somaiyahsultani   0.0 408206400      0
+13738 somaiyahsultani   0.2 408983264  39920
+13739 somaiyahsultani   0.1 408741712   8592
+14015 somaiyahsultani   0.0 408227568    832
+14421 root              0.0 408247024    432
+14458 somaiyahsultani   0.0 408975680   1024
+14463 somaiyahsultani   0.0 408075392    624
+15416 somaiyahsultani   1.3 414076016 214560
+15431 somaiyahsultani   0.0 408680064      0
+15432 somaiyahsultani   0.0 409082176      0
+15433 somaiyahsultani   0.0 408679024      0
+15440 somaiyahsultani   0.0 408338496      0
+15453 somaiyahsultani   0.1 408941968  18992
+15454 somaiyahsultani   0.1 408741712   8608
+15465 somaiyahsultani   0.0 409247040   1936
+15470 somaiyahsultani   0.0 408851968   1472
+15546 somaiyahsultani   0.1 408272784   9840
+15677 root              0.0 408268400   4096
+16891 somaiyahsultani   0.0 408237808    944
+16931 somaiyahsultani   0.0 409097536   1024
+17123 somaiyahsultani   0.4 410071104  63808
+17124 somaiyahsultani   0.1 408915792  17376
+17125 somaiyahsultani   0.0 408741696   8320
+17176 somaiyahsultani   0.0 408636656      0
+17183 somaiyahsultani   0.0 408496576      0
+17193 somaiyahsultani   0.0 408636656      0
+17199 somaiyahsultani   0.0 408505792      0
+17201 somaiyahsultani   0.0 408646896      0
+17207 somaiyahsultani   0.0 408505792      0
+17209 somaiyahsultani   0.0 408655088      0
+17211 somaiyahsultani   0.0 408507840      0
+17219 somaiyahsultani   0.0 408644848      0
+17225 somaiyahsultani   0.0 408508864      0
+17227 somaiyahsultani   0.0 408636656      0
+17233 somaiyahsultani   0.0 408507840      0
+17235 somaiyahsultani   0.0 408645872      0
+17237 somaiyahsultani   0.0 408506816      0
+17247 somaiyahsultani   0.0 408645872      0
+17253 somaiyahsultani   0.0 408498624      0
+17255 somaiyahsultani   0.0 408637680      0
+17261 somaiyahsultani   0.0 408517056      0
+17263 somaiyahsultani   0.0 408636656      0
+17265 somaiyahsultani   0.0 408506816      0
+17273 somaiyahsultani   0.0 408627440      0
+17278 somaiyahsultani   0.0 408506816      0
+17365 somaiyahsultani   0.0 408636656      0
+17370 somaiyahsultani   0.0 408506816      0
+17378 somaiyahsultani   0.0 408645872      0
+17384 somaiyahsultani   0.0 408516032      0
+17386 somaiyahsultani   0.0 408644848      0
+17392 somaiyahsultani   0.0 408515008      0
+17394 somaiyahsultani   0.0 408646896      0
+17396 somaiyahsultani   0.0 408515008      0
+17481 somaiyahsultani   0.0 408637680      0
+17487 somaiyahsultani   0.0 408507840      0
+17489 somaiyahsultani   0.0 408637680      0
+17495 somaiyahsultani   0.0 408523200      0
+17497 somaiyahsultani   0.0 408637680      0
+17499 somaiyahsultani   0.0 408506816      0
+17515 somaiyahsultani   0.0 408656112      0
+17516 somaiyahsultani   0.0 408645872      0
+17517 somaiyahsultani   0.0 408637680      0
+17520 somaiyahsultani   0.0 408506816      0
+17521 somaiyahsultani   0.0 408505792      0
+17525 somaiyahsultani   0.0 408505792      0
+17537 somaiyahsultani   0.0 408628464      0
+17538 somaiyahsultani   0.0 408636656      0
+17544 somaiyahsultani   0.0 408507840      0
+17547 somaiyahsultani   0.0 408525248      0
+17549 somaiyahsultani   0.0 408639728      0
+17551 somaiyahsultani   0.0 408505792      0
+17559 somaiyahsultani   0.0 408636656      0
+17565 somaiyahsultani   0.0 408507840      0
+17567 somaiyahsultani   0.0 408646896      0
+17573 somaiyahsultani   0.0 408506816      0
+17575 somaiyahsultani   0.0 408646896      0
+17577 somaiyahsultani   0.0 408513984      0
+17584 somaiyahsultani   0.0 408645872      0
+17588 somaiyahsultani   0.0 408636656      0
+17592 somaiyahsultani   0.0 408636656      0
+17606 somaiyahsultani   0.0 408506816      0
+17607 somaiyahsultani   0.0 408507840      0
+17608 somaiyahsultani   0.0 408498624      0
+17617 somaiyahsultani   0.0 408628464      0
+17623 somaiyahsultani   0.0 408506816      0
+17631 somaiyahsultani   0.0 408645872      0
+17637 somaiyahsultani   0.0 408505792      0
+17639 somaiyahsultani   0.0 408637680      0
+17645 somaiyahsultani   0.0 408505792      0
+17647 somaiyahsultani   0.0 408637680      0
+17649 somaiyahsultani   0.0 408496576      0
+17658 somaiyahsultani   0.0 408636656      0
+17664 somaiyahsultani   0.0 408506816      0
+17666 somaiyahsultani   0.0 408636656      0
+17672 somaiyahsultani   0.0 408497600      0
+17674 somaiyahsultani   0.0 408628464      0
+17676 somaiyahsultani   0.0 408506816      0
+17683 somaiyahsultani   0.0 408627440      0
+17687 somaiyahsultani   0.0 408627440      0
+17691 somaiyahsultani   0.0 408636656      0
+17704 somaiyahsultani   0.0 408506816      0
+17705 somaiyahsultani   0.0 408505792      0
+17708 somaiyahsultani   0.0 408515008      0
+17715 somaiyahsultani   0.0 408636656      0
+17719 somaiyahsultani   0.0 408637680      0
+17728 somaiyahsultani   0.0 408505792      0
+17729 somaiyahsultani   0.0 408516032      0
+17928 somaiyahsultani   0.0 408209136    944
+18622 somaiyahsultani   1.1 410502048 181088
+18623 somaiyahsultani   0.3 408990144  50720
+18624 somaiyahsultani   0.1 408742720   8672
+18625 somaiyahsultani   0.0 408255216    880
+18633 somaiyahsultani   0.0 408247680   2192
+18698 root              0.0 408218016   4704
+18885 somaiyahsultani   0.0 408856448   2432
+18886 somaiyahsultani   0.0 408270832   1024
+18887 somaiyahsultani   0.0 408198208      0
+18921 somaiyahsultani   0.0 408265024   3616
+19185 root              0.2 408342768  32560
+19195 _driverkit        0.0 408497920    848
+19805 somaiyahsultani   0.7 1585843584 112832
+19807 somaiyahsultani   0.0 441604928   4208
+19808 somaiyahsultani   0.3 442092048  45456
+19809 somaiyahsultani   0.2 441891328  25616
+19810 somaiyahsultani   0.0 409121088   6208
+19811 somaiyahsultani   1.1 1597856112 188528
+19819 somaiyahsultani   0.3 1585116976  55520
+19844 somaiyahsultani   0.4 409002384  59952
+19845 somaiyahsultani   0.1 408743232  19584
+19869 somaiyahsultani   0.0 408695744   6112
+19870 somaiyahsultani   0.0 409378608   4528
+19916 somaiyahsultani   0.1 408283536  23888
+20026 somaiyahsultani   0.3 514985408  54608
+20028 somaiyahsultani   0.6 498936544  96224
+20029 somaiyahsultani   0.0 409247040   4304
+20410 somaiyahsultani   0.0 409098560   4368
+20461 somaiyahsultani   0.4 500028240  63552
+20462 somaiyahsultani   0.0 409379136   4480
+20463 somaiyahsultani   0.0 408975680   4560
+20498 somaiyahsultani   0.3 409853472  51872
+20499 somaiyahsultani   0.0 408817984   4352
+20868 somaiyahsultani   0.0 408228080   4672
+21934 somaiyahsultani   0.0 408975680   4336
+21947 somaiyahsultani   1.0 414612000 167264
+21950 somaiyahsultani   0.0 408197184   3408
+21951 somaiyahsultani   0.0 408987328   6272
+22206 somaiyahsultani   0.0 408210000   7056
+22207 somaiyahsultani   0.0 408215616   3408
+22305 somaiyahsultani   0.0 408198208   3408
+22394 somaiyahsultani   0.2 408452112  31584
+22396 somaiyahsultani   0.1 408074896   9200
+22398 somaiyahsultani   0.0 408967488   4384
+22399 somaiyahsultani   0.3 408978944  50768
+22400 somaiyahsultani   0.1 408741696  19376
+22401 somaiyahsultani   0.0 408817984   4368
+22429 somaiyahsultani   0.0 409378112   4368
+22430 somaiyahsultani   0.0 408966464   4336
+25077 somaiyahsultani   1.6 515689952 271504
+25107 somaiyahsultani   0.0 409115968   4352
+25167 somaiyahsultani   0.0 408827200   4368
+25304 somaiyahsultani   2.3 498003520 383440
+26488 somaiyahsultani   0.1 408211072   9408
+26573 somaiyahsultani   0.0 408536624   5056
+26575 root              0.0 408536608   3776
+26576 _trustd           0.1 408270688  12528
+26580 somaiyahsultani   0.1 408352624  23136
+26581 _spotlight        0.0 408257184   6256
+26778 root              0.0 408209568   5568
+26782 somaiyahsultani   0.0 408209584   7168
+27187 _locationd        0.0 408211104   5520
+27205 _netbios          0.0 408198592   4768
+27420 somaiyahsultani   0.0 408247024   4608
+27438 somaiyahsultani   0.6 410007248 101984
+27440 somaiyahsultani   0.0 408834368   4336
+27447 somaiyahsultani   0.0 408779248   1632
+27506 somaiyahsultani   0.2 409609136  37056
+27507 somaiyahsultani   0.1 408741696  18832
+27509 somaiyahsultani   0.0 408827200   4384
+27550 somaiyahsultani   0.2 408318480  30944
+27566 somaiyahsultani   0.4 409856144  62512
+27567 somaiyahsultani   0.0 408226400   4592
+27568 somaiyahsultani   0.3 408918384  56912
+27569 somaiyahsultani   0.8 408991232 132944
+27570 somaiyahsultani   0.1 408748608  19088
+27571 somaiyahsultani   0.1 408991872   8832
+27573 somaiyahsultani   0.1 408752272  20624
+27575 somaiyahsultani   0.2 408761920  36192
+27576 somaiyahsultani   0.2 408749792  26816
+27577 somaiyahsultani   0.1 408750304  18496
+27578 somaiyahsultani   0.1 408749120  17840
+27579 somaiyahsultani   0.1 408749728  18400
+27580 somaiyahsultani   0.1 408288400  22912
+27581 somaiyahsultani   0.1 408750288  19184
+27583 somaiyahsultani   0.2 408750128  25472
+27584 somaiyahsultani   0.1 408751792  22464
+27585 somaiyahsultani   0.1 408749248  18176
+27586 somaiyahsultani   0.1 408749328  22288
+27587 somaiyahsultani   0.1 408749952  18272
+27774 somaiyahsultani   0.2 1585116608  40240
+27775 somaiyahsultani   0.5 1585123984  77200
+27797 somaiyahsultani   0.1 409158592  11776
+27876 somaiyahsultani   1.0 411943360 171584
+27884 somaiyahsultani   0.2 1585107152  41616
+27970 somaiyahsultani   0.2 1585062528  37808
+28005 somaiyahsultani   0.0 409152112   6784
+28572 somaiyahsultani   0.1 409557728  16912
+28575 somaiyahsultani   0.5 410062208  85664
+28577 somaiyahsultani   0.0 409378112   4288
+28578 somaiyahsultani   0.0 409379136   4448
+28579 somaiyahsultani   0.3 408918240  43680
+28580 somaiyahsultani   0.1 408742208  18432
+28581 somaiyahsultani   0.0 408506640   3408
+28582 somaiyahsultani   0.0 408178480   3072
+29314 somaiyahsultani   0.0 408209136   4992
+29375 somaiyahsultani   0.2 408316464  26272
+29918 somaiyahsultani   0.0 408047648   2944
+29926 somaiyahsultani   1.0 410011088 168992
+29943 somaiyahsultani   0.6 498081840  98016
+29944 somaiyahsultani   0.9 515216192 157120
+29967 somaiyahsultani   0.0 408967488   7872
+29969 somaiyahsultani   0.5 497980176  82544
+29972 somaiyahsultani   0.0 408949056   3696
+29974 somaiyahsultani   0.0 408967488   3824
+29975 somaiyahsultani   1.3 515133808 214864
+29981 somaiyahsultani   0.0 408817984   4368
+29982 somaiyahsultani   0.4 514809776  65824
+29985 somaiyahsultani   0.4 514756448  62272
+29988 somaiyahsultani   0.0 409107776   4880
+31305 somaiyahsultani   0.2 497258128  37616
+31306 somaiyahsultani   0.2 497378352  38176
+31307 somaiyahsultani   1.3 498087200 210128
+31308 somaiyahsultani   2.9 498973648 486176
+31309 somaiyahsultani   0.2 497415328  41248
+31316 somaiyahsultani   0.2 497112576  35600
+31317 somaiyahsultani   1.4 497859776 231936
+31318 somaiyahsultani   0.1 408951104  13008
+31319 somaiyahsultani   0.0 408927648   7424
+31320 somaiyahsultani   4.4 498741136 732304
+31321 somaiyahsultani   0.1 409238016  20128
+31322 somaiyahsultani   0.1 409369920  23184
+31323 somaiyahsultani   0.2 513967600  35104
+31324 somaiyahsultani   0.1 408845632  12320
+29927 root              0.0 408664912   4752
+29928 somaiyahsultani   0.0 408681984   3456
+31328 somaiyahsultani   0.0 408635632   1760
+31329 root              0.0 408758960   2256
+
+------------------------------Top Memory Usage By Process-------------------------------------
+
+
+
+--------------------------------- Top Memory Usage By VM --------------------------------------
+
+
+-------------------------------------Top Memory by User----------------------------------------
+
+
+

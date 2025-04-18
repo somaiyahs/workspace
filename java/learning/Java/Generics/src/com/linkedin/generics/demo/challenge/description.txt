@@ -1,0 +1,5 @@
+Write a class for numerical operations - This class should accept only Numbers and its subtypes.
+write a constructor that accepts multiple values for operands and initializes a corresponding instance variable.
+Add a method to return a sorted list of the numbers.
+Add another method to calculate the maximum value among them.
+for all above, use standard APIs as far as possible to perform mathematical operations.

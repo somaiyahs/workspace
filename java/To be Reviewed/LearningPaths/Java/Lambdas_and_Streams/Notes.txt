@@ -1,0 +1,7 @@
+Functional Programming: gives you the same output everytime you give it the same input. Think of functions in math where for each x there is exactly one y. 
+    - A function can take another function as an input. in some cases the output might be a function as well. 
+    - Two of the features introduced in Java 8 are LAMBDAs and STREAMs, enabling functional programming style in Java. 
+
+LAMBDA are a way of using functional programming to write consice and powerfulcode in Java 
+    - they implement functional interfaces. 
+            - create a new Java class -> use interface option. (look at greeting example. )

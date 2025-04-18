@@ -1,0 +1,215 @@
+1- Fundamentals of Generics
+Understand the need for Generics
+Common Terms:
+Type: is a Class/Interface/Enum. They can be inbuilt (by JDK) or custom (implemented by you or another programmer).
+    Example, inbuilt - String; Custom - if you have a class like Product, or an interface called Bounceable.
+Object Type reference: Variable of "Object" Type (ex. Product myProd = new Product(); --> myProd is a type reference.)
+
+Instance: Object of any class - created using the new keyword, we say that we have instantiated an object of that class.
+    Example. Product myProd = new Product(); --> myProd is an object type reference to an instance of Product class/type.
+
+Generalized Code
+In Java, you can write a generalized code using the OOP concepts - inheritance and polymorphism.
+This means if you have a logic that is implemented for a parent class, it will be available to all the child classes, extending the parent class.
+Example. Number num = new  Integer(10); --> we created an object of Integer type and refering to it with a variable that is of the number type.
+Why this worke? because Number is the parent class of Integer, available in Java. We can create a sub class and refer it by a variable of the super class (Learn more at Polymorphism and Inheritance.)
+By doing this, all the logic implemented in the parent class will be available to the child class.
+
+We can take this concept a step further and because of this, we can always write a generalized code using the object type reference as well since Object is the super class of all the classes in Java.
+That is because an object type reference can point to an instance to any class.
+For example: Object value = new String("Java").  See Demo for non-generic codes.
+
+Problems without Generics
+- Needs explicit casting. (com.linkedin.generics -> NonGenericCode -> line 25)
+    Doing this everywhere in your code will introduce a lot of clutter in your code, it is time consuming and error prone.
+
+- Lacks type safety check (com.linkedin.generics -> NonGenericCode -> line 18)
+ Runtime error:
+ Exception in thread "main" java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+ 	at com.linkedin.generics.NonGenericCode.processLanguages(NonGenericCode.java:25)
+ 	at com.linkedin.generics.NonGenericCode.main(NonGenericCode.java:18)
+Why compiler allows us to add a number in our demo and then eventually try to cast it into a string? because the compiler trusts us that we know what we were doing.
+
+To solve these issues we have a tool in Java called Generics.
+This way you can ensure a collection such as ArrayList only holds values of a certain type.
+Example:
+    - ArrayList<E> --> E is a parameter which is a placeholder for the type of the values it will be holding. It will be set when we instantiate an object of an ArrayList.
+    - E letter - naming convention.
+    - These kind of generic classes can then be used for all different types.
+        - new ArrayList<Integer>(); Only holds values of Integer type.
+        - new ArrayList<String>(); Only holds values of String type.
+    - Generics were introduces in Java SDK 5.0
+
+    Demo GenericCode class com.linkedin.generics -> GenericCode
+Understand Generics in Java
+
+Generics:
+- let you define parameterized types in Java.
+    - enable types to be parameters for classes/interfaces.
+
+Terms in Generics
+    - Generic Types: List<E> extends Collection<E>, Map<K, V>  --> List of E and Collection of E, as well as Map of K and V in each definition are generic types.
+    - Parameterized Types: List<String> languages; List of String is a paramerized type
+    - Raw type: if in your code you just mention the name of the interface such as List languages, you have created a raw type.
+        - Never use Raw types because you will lose the benefits of the generics
+        - Why do we have still have them in Java? to support the legacy codes.
+        - Using raw types generates compiler warnings.
+    - Methods
+        - Definition - Parametes
+        - Invocation - arguments
+    - Generics
+        - Definition - Type Parameter
+        - Invocation - type arguments
+    - Formal Type parameter: List<E>, E is the type parameter
+    - Actual type arguments: in List<String>, String is the type argument.
+    - Diamond operator: <> --> Avoid duplicate declaration. ex. List<String> list_1 = new ArrayList<>(); --> since we already declared the type argument in the left handside, the compiler will know that the type argument on the right handside is the same as the left side.
+        - if we forget the diamond operator on the righthand side we are still creating a raw list.
+        - ex. List<String> list_2 = new ArrayList(); list_2 is a raw type.
+
+Rules and Naming Conventions
+    - Only works with reference types and not primitives.
+    - Ex. List<Integer> intList = new ArrayList<>();
+        - intList.add(23); will work because of automatic unboxing. 23 being a primitve type will be outboxed into Integer Object before being added to the intList.
+            - Autoboxing and unboxing are the features that allows us to use generics with primitive types. (learn more at Autoboxing and Unboxing)
+        - Generic types differ based on their type arguments. (see codes at Rules class)
+
+    - Naming Conventions for Type Parameters: Always Capital letters which is different than usual name conventions in Java which is supposed to be elaborate,
+                                              meaningful and descriptive. The reason for using single capital letters for parametized types to differentiate them from the rest of your code.
+        - E: Element used in all collections classes
+        - K : Key - used in Map interface, can be used if coding a generic class/interface similar to Map<K, V>
+        - V: Values - used in Map interface, can be used if coding a generic class/interface similar to Map<K, V>
+        - N: Number - used if you are creating a generic class specifically to deal with numbers
+        - T: Type - refers to any type and is mostly used when you are creating your own generic classes
+        - S, U, V: if you are writing a generic type with multiple parameters
+
+Advantages of Generics
+    - Compile and runtime protection
+    - No explicit casts, which helps to keep your code clean and robust (learn more at robust )
+    - offers developers to write generic algorithms.
+
+Chapter Quiz:
+
+1. Which of these are the advantages of generics?
+A. Strong type checks at compile time
+B. Elimination of casts
+C. Runtime performance optimization
+D. Enabling implementation of generic algorithms
+
+    - none of these answers
+    - A, B, & D: Correct --> For A & B: Generics feature was introduced in Java to eliminate the need for explicit casting & to provide type safe checks at compile time itself. For D: A generic class enables any type argument to be passed to it. This makes it possible for developers to develop generic algorithms
+    - C
+    - A
+
+
+2. Will the following code compile correctly?
+public static void main(String[] args) {
+        List<Object> objects = new ArrayList<>();
+        objects.add("Java");
+        objects.add("JEE");
+        objects.add(new String("Python"));
+        objects.add(123);
+        processLanguages(objects);
+    }
+    private static void processLanguages(List data){
+        System.out.println(data.get(0));
+    }
+
+    - No, the main method has a List passed to the processLanguages method but the processLanguages method has a parameter of raw type.
+        - Incorrect: Parameterized types can always be passed to methods with raw types and vice versa.
+
+    - Yes it will & the output on the console will print "Java".
+        - Correct: One can always pass a parameterized list to a method having a raw list. This is the compatibility that Java has maintained to support legacy code. So everything works fine and "Java" will be printed on the console.
+
+    - No, the compilation fails for line "objects.add(123);".
+
+3. Which of the following Generic List instantiations are valid?
+A. List<String> stringList = new ArrayList<String>();
+B.List<Double> doubleList = new LinkedList<Double>();
+C. List<int> intList = new ArrayList<int>();
+D. List<String> stringList = new ArrayList<Double>();
+
+    - C
+    - A & B: Correct - A & B are valid because the instantiation of generic types List and ArrayList have the exact matching type arguments on both sides of the assignment operator.
+    - D
+
+4. Which of the code snippets are valid completions to the following code sample?   Map<String, Integer> myMap = _____
+A. new HashMap<String, Integer>();
+B. new HashMap();
+C. new HashMap<String, int>();
+D. new TreeMap<>();
+
+    - B
+    - C
+    - A & D: Correct --> A is valid because it correctly creates an object of Hashmap with the exact matching type arguments that were declared while creating the reference myMap. D is valid because it uses the Diamond operator and hence the type arguments used in the creation of myMap reference will be inferred by the compiler for the right side of the assignment operator.
+
+5. Which of the following data structures do NOT work with generics?
+    - Set
+    - Array: Correct --> Arrays do not support Generics creation.
+    - Map
+    - List
+
+
+Generic Classes and Methods *************************************
+
+Generics Classes/Interface use cases
+
+Creating a generic class demo
+Classes
+    - Box<T> : holds multiple items of any type, has the following methods
+        - addItem
+        - getLatestItem
+        - getCountOfItems
+    - Type arguments:
+        - Fruit
+        - Book
+    - Write code --> Test
+        - Box<Fruit>
+        - Box<Book>
+
+Understand Generic Methods and Constructors
+    - look at the demo codes
+Implement a Generic Method as a Utility
+    - writing a generic method outside of the generic class
+Using Bound Types
+Purpose of Bounded Types:
+putting restriction of types: example Box<T> should only contain items that has "weight" attribute.
+- solution: Defined bounded types
+specify restrictions using "extends" keywords --> this specify the super class
+    - helps create an upper bound using inheritance and super class. --> all your type argument must be drived from your super class
+        - ex. Box< T extends superclass>
+    - interfaces can be specified in bounds
+        - ex. Box< T extends interface1>
+    - note: extends keyword is used for both interface and super class
+    - use multiple interfaces as upper bound using & as well as a superclass
+        - ex. Box<T extends interface1 & interface2>
+            - Box<T extends superclass & interface1 & interface2>
+        _ RULES:
+            - you can extend multiple interfaces as your upper bound but can only use one superclass (inheritance)
+            - superclass must always be specified first if the upper bound is a combination of a superclass and one or more interfaces.
+
+Demo:
+    - interface: Boxable
+        - has a method getWeight() which both Book and Fruit class must implement
+        - changes to be made to Box<T> class
+        - adding a new method to Box<T> class to calculate the total weight of the box.
+
+Challenge: Write code using generic classes/bounded types
+
+3- Generics Deep Dive
+Type Argument Hierarchies
+
+
+Understand Type Erasure in Generics
+
+Understand Bridge Methods
+
+Understand Type Interface and Target Types
+
+Applying Wildcard Arguments
+
+Restrictions on Generics
+
+Chapter Quiz:
+
+4- Conclusion: Where to go from here
+

@@ -1,0 +1,43 @@
+Module 8 Assignment: Lab 4: Memory Audit Script 
+Due Sunday by 11:59pm Points 100 Submitting a file upload
+
+Instructions
+One day, during a meeting at work, you overhear a stray comment from Ray, your colleague in your consulting firm. 
+
+Ray mentions that he is having a hard time with a client that did not accept their billing. 
+
+One of the services provided by your firm is managed system hosting, and customers are billed according to their usage of system resources.
+
+You ask Ray about this, and he says that the problem appears to be with memory usage. A general system report is generated with usage stats, but there is not a breakdown of what actually used the memory. 
+
+Because of this, the client is suggesting that something is eating up the memory, and it is not them. Because Ray can't provide further details, Ray's boss agreed to lower the client's bill, but this is hurting Ray's career.
+
+You decide that it shouldn't be that difficult to write a script that performs an audit of physical and virtual memory. With this in place, Ray might keep his job and the firm will be able to collect payment much more accurately.
+
+
+
+Specification (50 points possible)
+Your deliverable for this assignment will be a shell script which performs the following actions:
+
+Records physical and virtual memory usage for a system, by process/thread and by user
+Produces a report by which the following auditing tasks can be performed:
+Physical and virtual memory usage by process/thread
+Physical and virtual memory usage by user
+Physical and Virtual memory usage over time
+daily
+weekly
+monthly
+
+
+Each report should be created automatically as the result of the execution of one or more scripts
+Output (30 points possible)
+Your shell script should return the information defined in the Specification as a report. This report may be delivered in any way you wish (export to a text file, CSV, PDF, HTML, etc.) but the important factor is that the output should be practical for use across several systems.
+ Your output will be graded according to how well formatted and easy to parse the information is.
+
+
+Documentation (10 points possible)
+Your shell script should contain clear documentation for what each section of code is accomplishing. This documentation should exist as clearly formatted comments in your code. Header documentation before each section is encouraged to enable anyone who is viewing your code for the first time to be able to understand the purpose of your commands used.
+
+
+Readability (10 points possible)
+Your script should have a consistent format and organization which aids in the understanding of logic structures and the general flow of the program. The program should be divided into sections, with each section having a clear beginning and end. It should not be difficult to follow your logic.

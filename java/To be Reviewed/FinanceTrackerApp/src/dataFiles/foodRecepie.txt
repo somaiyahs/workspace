@@ -1,0 +1,355 @@
+ingridinets List<Ingridience(String name, double amount, String, unit)>
+String name
+String recipe
+int ID --> self generated 
+Person(String fName, String lName, Date dateofBirth, List<Food> favFood, List<String> favColor, List<String> hobbies, String relationship, List<String> likes, List<String> dislikes, List<Event> memories)
+
+ID: 1
+name: aabGoosht
+meal-type: breakfast/lunch/dinner/snack
+ingridients: <meat, potatoes, chickpeas, dried lemon, onions, tomatoes, tomato paste, salt, black pepper, garlic, tumeric>
+recipe: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <Ezat>
+
+who does not like it: <list of person> 
+Last made: Date
+Note: 
+
+ID: 2
+name: Tuna Salad
+ingridience: <canned tuna, mayonaise, salt, black pepper, tomatoes, pickles, onions, cheese>
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <Ilya, Ezat, Maya>
+
+who does not like it: <list of person>
+Last made: Date 
+
+ID: 3
+name: Bolani
+ingridience: 
+    - Dough: <flour, salt, khamir-torsh, suger, warm water, oil> 
+    - fillings: <potatoes/zucinni/leak, tomatoes, onions, salt, pepper, fresh green pepper, tumeric, gralic>
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <Ilya>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 4 
+name: Olovieh
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 5 
+name: ghorme-sabzi
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: Shrimp-polo
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: lasania
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: pasta
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: kabab-digi
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: fesenjoon
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <me>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: adasi
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 
+name: kashk-e-bedemjan
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 
+name: Butter chicken
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <Ezat, Ilya>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 4 
+name: Olovieh
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person>
+Last made: Date 
+
+ID:  
+name: Gheime
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: chili-red-beans
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID: 
+name: mean&chickpeas
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+Last made: Date
+
+ID:  
+name: Shaami-kabab
+ingridience: 
+recepie: 
+active time:
+    prep time:
+    cooking time:
+passive time:
+    prep time:
+    cooking time:
+
+level of hardness: 
+
+who likes it: <list of person>
+
+who does not like it: <list of person> 
+
+Last made: Date
+
+
+Breakfast ----------------------
+1- sunny-side eggs
+2- boiled eggs
+3- dates&eggs
+4- tomato and eggs
+5- omlete
+6- adasi
+7- chili beans 
+8- cream/feta cheese
+9- butter and jam/honey
+10- pancacke
+11- oatmeal
+
+
+
+
+
+
+
